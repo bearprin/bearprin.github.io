@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Zheng Zeng"
   avatar           : "/assets/images/profile.png"
-  bio              : "Rendering, \n Computer Graphics, \nComputer Science."
+  bio              : "Rendering, <br> Computer Graphics, <br>Computer Science."
   location         : 
   email            : 
   links:
