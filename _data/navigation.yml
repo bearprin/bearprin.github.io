@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "ABOUT"
-    url: https://zheng95z.github.io/
+    url: /about/
   - title: "POSTS"
     url: /year-archive/
   # - title: "Sample Collections"
