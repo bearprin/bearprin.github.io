@@ -290,3 +290,4 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       comments: true
+      toc: true
