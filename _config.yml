@@ -20,12 +20,12 @@ title                    : "Zheng's Horadric Cube"
 title_separator          : "-"
 subtitle                 : "Stay awhile and listen."
 name                     : "ZHENG ZENG"
-description              : "An amazing website."
+description              : "Zheng's notes, thoughts, and publication."
 url                      : "https://zheng95z.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "zheng95z/zheng95z.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
