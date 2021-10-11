@@ -1,0 +1,21 @@
+---
+layout: archive
+title: Publications
+author_profile: true
+---
+
+{% assign publications = site.publications | sort: "uid" | reverse %}
+{% for pub in publications %}
+<div class="pubitem">
+    <div class="pubtitle">{{ pub.title }}</div>
+
+    <div class="pubteaser">
+        <a href="{{pub.url}}">
+            <img src="/assets/images/pub/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser" />
+        </a>
+    </div>
+
+    <div class="pubauthors">{{ pub.authors }}</div>
+    <div class="pubinfo">{{ pub.publication }}, {{ pub.pub_date}}</div>
+</div>
+{% endfor %}

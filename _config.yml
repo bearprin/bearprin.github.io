@@ -290,3 +290,8 @@ defaults:
       date_format: "%Y-%m-%d"
       comments: true
       toc: true
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name

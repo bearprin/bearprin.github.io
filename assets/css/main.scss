@@ -6,3 +6,55 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 14px; // change to whatever
+
+    @include breakpoint($medium) {
+      font-size: 16px; // change to whatever
+    }
+
+    @include breakpoint($large) {
+      font-size: 18px; // change to whatever
+    }
+
+    @include breakpoint($x-large) {
+      font-size: 20px; // change to whatever
+    }
+  }
+
+// for publications.html
+
+.pubitem {
+  margin: 2em 0;
+  line-height: 1em;
+}
+
+.pubtitle {
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.pubauthors,
+.pubinfo {
+  font-size: 75%;
+  margin-bottom: 0.75em;
+}
+
+.pubteaser {
+    clear: both;
+  }
+
+  .pubteaser a {
+    float: left;
+    margin-right: 2em;
+  }
+
+  .pubteaser img {
+    width: 256px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+  }
