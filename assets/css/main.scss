@@ -26,7 +26,7 @@ html {
 // for publications.html
 
 .pubitem {
-  margin: 2em 0;
+  margin: 1em 0;
   line-height: 1em;
 }
 
@@ -44,17 +44,23 @@ html {
 
 .pubteaser {
     clear: both;
+    display:inline-block;
+    vertical-align:top;
+    width: 40%;
   }
-
   .pubteaser a {
     float: left;
-    margin-right: 2em;
+    margin-right: 0.5em;
   }
 
   .pubteaser img {
-    width: 256px;
     padding: 0.25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-  }
+}
+
+.pubtext{
+    display:inline-block;
+    max-width:55%;
+}

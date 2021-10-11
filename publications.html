@@ -6,16 +6,27 @@ author_profile: true
 
 {% assign publications = site.publications | sort: "uid" | reverse %}
 {% for pub in publications %}
-<div class="pubitem">
-    <div class="pubtitle">{{ pub.title }}</div>
+<div class="feature_wrapper">
+    <div class="feature__item--left">
+        <div class="archive__item">
+            <div class="archive__item-teaser">
+                <a href="{{pub.url}}">
+                    <img src="/assets/images/pub/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser" />
+                </a>
+            </div>
+            <div class="archive__item-body" , style="vertical-align:top;">
+                <h2 class="archive__item-title">{{ pub.title }}</h2>
 
-    <div class="pubteaser">
-        <a href="{{pub.url}}">
-            <img src="/assets/images/pub/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser" />
-        </a>
+                <div class="page__content text-justify">
+                    {{ pub.authors }} ({{ pub.publication }})
+                </div>
+                <p><a href="https://github.com/k-bosko/Starbucks_rewards" class="btn btn--primary">Code +
+                        Presentation</a></p>
+                <p><a href="/Starbucks-Rewards-Program/" class="btn btn--primary">Technical Report</a></p>
+            </div>
+        </div>
     </div>
-
-    <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">{{ pub.publication }}, {{ pub.pub_date}}</div>
+    <HR width="100%" color=#41879d>
 </div>
+
 {% endfor %}
