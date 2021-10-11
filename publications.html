@@ -26,21 +26,31 @@ author_profile: true
                     <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
                     {% endif %}
 
-                    {% if pub.supplementary != null %}
-                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
+                    {% if pub.code != null %}
+                    <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
                     {% endif %}
 
                     {% if pub.slides != null %}
                     <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides</a>
                     {% endif %}
 
-                    {% if pub.presentation != null %}
-                    <a href="{{pub.presentation}}" target="_blank" class="btn btn--primary">Presentation</a>
+                    {% if pub.presentation_slides_video != null %}
+                    <a href="{{pub.presentation_slides_video}}" target="_blank" class="btn btn--primary">Presentation
+                        slides video</a>
                     {% endif %}
 
-                    {% if pub.code != null %}
-                    <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
+                    {% if pub.supplementary != null %}
+                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
                     {% endif %}
+
+                    {% if pub.supplemental_video != null %}
+                    <a href="{{pub.supplemental_video}}" target="_blank" class="btn btn--primary">Supplemental video</a>
+                    {% endif %}
+
+                    {% if pub.doi != null %}
+                    <a href="{{pub.doi}}" target="_blank" class="btn btn--primary">DOI</a>
+                    {% endif %}
+
                 </p>
             </div>
         </div>

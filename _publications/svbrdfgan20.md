@@ -8,6 +8,7 @@ doi: https://doi.org/10.2312/sr.20201136
 paper:
 code:
 slides:
+presentation_slides_video:
 supplementary:
-presentation:
+supplemental_video:
 ---
