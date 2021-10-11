@@ -95,7 +95,7 @@ social:
 analytics:
   provider               : "google"
   google:
-    tracking_id          : 
+    tracking_id          :
     anonymize_ip         : # true, false (default)
 
 
@@ -104,8 +104,8 @@ author:
   name             : "Zheng Zeng"
   avatar           : "/assets/images/profile.png"
   bio              : "Rendering,<br>Computer Graphics,<br>Computer Science."
-  location         : 
-  email            : 
+  location         :
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
