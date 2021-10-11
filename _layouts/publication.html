@@ -1,22 +1,13 @@
 ---
 layout: default
+author_profile: true
 ---
-
-<div class="page">
-
-    <h1 class="mt-4 publication-title">{{ page.title }}</h1>
-    <div class="publication-authors">{{ page.authors }}</div>
-    <div class="publication-info">{{ page.publication }}</div>
-    <div class="publication-teaser">
-        <img src="/assets/images/pub/{{ page.slug }}_small.jpg" alt="project teaser" />
+<div id="main" , role="main">
+    <h1 style="margin-top:10px;text-align:center;"> {{ page.title }} </h1>
+    <div style="text-align:center;" class="publication-authors">{{ page.authors }}</div>
+    <div style="text-align:center;" class="publication-info">{{ page.publication }}</div>
+    <div style="margin-top:10px;text-align:center;" class="publication-teaser">
+        <img src="/assets/images/pub/{{ page.slug }}_teaser.png" alt="project teaser" />
     </div>
     {{ content }}
-    <h2 id="downloads">Downloads</h2>
-    <p>
-        <a href="/download/{{ page.slug }}.pdf"><i class="far fa-file-pdf"></i> PDF</a>&nbsp;&nbsp; {% if page.slides %}
-        <a href="/download/{{ page.slug }}_slides.pdf"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp; {% endif
-        %}
-        <a href="/download/{{ page.slug }}.bib"><i class="far fa-file-alt"></i> BibTex</a>&nbsp;&nbsp; {% if page.doi %}
-        <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a>&nbsp;&nbsp; {% endif %}
-    </p>
 </div>

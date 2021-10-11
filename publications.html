@@ -14,15 +14,34 @@ author_profile: true
                     <img src="/assets/images/pub/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser" />
                 </a>
             </div>
-            <div class="archive__item-body" , style="vertical-align:top;">
-                <h2 class="archive__item-title">{{ pub.title }}</h2>
+            <div class="archive__item-body">
+                <div class="pubtitle">{{ pub.title }}</div>
+                <div class="pubauthors">{{ pub.authors }}</div>
+                <div class="pubinfo">{{ pub.publication }}</div>
 
-                <div class="page__content text-justify">
-                    {{ pub.authors }} ({{ pub.publication }})
-                </div>
-                <p><a href="https://github.com/k-bosko/Starbucks_rewards" class="btn btn--primary">Code +
-                        Presentation</a></p>
-                <p><a href="/Starbucks-Rewards-Program/" class="btn btn--primary">Technical Report</a></p>
+
+                <p>
+                    <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
+                    {% if pub.paper != null %}
+                    <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
+                    {% endif %}
+
+                    {% if pub.supplementary != null %}
+                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
+                    {% endif %}
+
+                    {% if pub.slides != null %}
+                    <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides</a>
+                    {% endif %}
+
+                    {% if pub.presentation != null %}
+                    <a href="{{pub.presentation}}" target="_blank" class="btn btn--primary">Presentation</a>
+                    {% endif %}
+
+                    {% if pub.code != null %}
+                    <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>

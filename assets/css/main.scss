@@ -39,14 +39,14 @@ html {
 .pubauthors,
 .pubinfo {
   font-size: 75%;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.25em;
 }
 
 .pubteaser {
     clear: both;
     display:inline-block;
     vertical-align:top;
-    width: 40%;
+    width: 100%;
   }
   .pubteaser a {
     float: left;
@@ -58,9 +58,4 @@ html {
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-}
-
-.pubtext{
-    display:inline-block;
-    max-width:55%;
 }
