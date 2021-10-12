@@ -567,11 +567,11 @@ a.reversefootnote {
 
 .responsive-video-container {
   position: relative;
-  margin-bottom: 1em;
-  padding-bottom: 56.25%;
+  margin-bottom: 0.5em;
+  padding-bottom: 28.125%;
   height: 0;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 50%;
 
   iframe,
   object,

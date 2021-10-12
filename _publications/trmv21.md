@@ -8,8 +8,8 @@ publication: Computer Graphics Forum (Proceedings of Eurographics 2021)
 doi: https://doi.org/10.1111/cgf.142616
 paper: https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf
 code:
-slides:
-presentation_slides_video:
+slides: /assets/files/TRMV_EG_2021.pptx
+presentation_slides_video: https://drive.google.com/file/d/1KYr1M6VvAITp_PmoRZRk0wgqUIKcTeP5/view?usp=sharing
 supplementary:
 supplemental_video: https://sites.cs.ucsb.edu/~lingqi/publications/video_trmv.mp4
 ---
@@ -21,16 +21,20 @@ We introduce temporally reliable motion vectors that aim at deeper exploration o
 
 ## Downloads
 
-[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf){: .btn .btn--primary}
-[Code](https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf){: .btn .btn--primary}
-[Slides](https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf){: .btn .btn--primary}
-[Supplemental video]({{supplemental_video}}){: .btn .btn--primary}
+[Paper (37MB)](page.paper){: .btn .btn--primary}
+[Slides (PPT, 24MB)]({{page.slides}}){: .btn .btn--primary}
+[Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary}
+[Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}
 
 
 
 ## Videos
+**Presentation slides video**
+{% include video provider="google-drive" id="1KYr1M6VvAITp_PmoRZRk0wgqUIKcTeP5" %}
 
-{% include video provider="google-drive" id="" %}
+**Supplemental video**
+
+{% include video provider="google-drive" id="1UkiWnzqS-3kgfQM8rFczyy1JW638jT87" %}
 
 ## Cite
 
@@ -46,6 +50,5 @@ We introduce temporally reliable motion vectors that aim at deeper exploration o
   organization={Wiley Online Library}
 }
 ```
-
 ## Copyright Disclaimer
-© The Author(s). This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The definitive Version of Record is available at [doi](https://doi.org/10.1111/cgf.142616).
+© The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not forredistribution. The definitive Version of Record is available at <a href="{{page.doi}}">DOI</a>.

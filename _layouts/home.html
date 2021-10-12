@@ -1,20 +1,97 @@
 ---
 layout: archive
 ---
+<h1 id="about" class="page__title">About</h1>
 
-{{ content }}
+<p>Hi! I’m Zheng, currently a Ph.D. student at UC Santa Barbara, supervised by Prof. <a
+        href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Lingqi Yan</a>. I received my Master’s and Bachelor’s
+    degree at Shandong University, supervised by Prof. <a href="http://vr.sdu.edu.cn/info/1010/1060.htm"
+        target="_blank">Lu Wang</a> and Prof. <a href="http://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank">Yanning
+        Xu</a>. I’m also very proud of being remotely advised by Prof. <a href="https://wangningbei.github.io/"
+        target="_blank">Beibei Wang</a>.
+</p>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<p>My research mainly focuses on rendering and material appearance. I believe that rendering is <strong>not</strong>
+    solved (mainly because of having learned <a href="https://www.bilibili.com/video/BV1my4y1z76s?p=3&amp;t=8m30s"
+        target="_blank">this</a>), and there is still something interesting and challenging we can do.
+</p>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+<h1 id="publications" class="page__title">Publications</h1>
+
+{% assign publications = site.publications | sort: "uid" | reverse %}
+{% for pub in publications %}
+<div class="feature_wrapper">
+    <div class="feature__item--left">
+        <div class="archive__item">
+            <div class="archive__item-teaser">
+                <a href="{{pub.url}}">
+                    <img src="/assets/images/pub/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser" />
+                </a>
+            </div>
+            <div class="archive__item-body">
+                <div class="pubtitle">{{ pub.title }}</div>
+                <div class="pubauthors">{{ pub.authors }}</div>
+                <div class="pubinfo">{{ pub.publication }}</div>
+
+
+                <p>
+                    <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
+
+                    {% if pub.website != null %}
+                    <a href="{{pub.website}}" target="_blank" class="btn btn--primary">Official website</a>
+                    {% endif %}
+
+                    {% if pub.paper != null %}
+                    <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
+                    {% endif %}
+
+                    {% if pub.code != null %}
+                    <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
+                    {% endif %}
+
+                    {% if pub.slides != null %}
+                    <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides</a>
+                    {% endif %}
+
+                    {% if pub.presentation_slides_video != null %}
+                    <a href="{{pub.presentation_slides_video}}" target="_blank" class="btn btn--primary">Presentation
+                        slides video</a>
+                    {% endif %}
+
+                    {% if pub.supplementary != null %}
+                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
+                    {% endif %}
+
+                    {% if pub.supplemental_video != null %}
+                    <a href="{{pub.supplemental_video}}" target="_blank" class="btn btn--primary">Supplemental video</a>
+                    {% endif %}
+
+                    {% if pub.doi != null %}
+                    <a href="{{pub.doi}}" target="_blank" class="btn btn--primary">DOI</a>
+                    {% endif %}
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <HR width="100%" color=#41879d size=1>
 </div>
+{% endfor %}
 
-{% include paginator.html %}
+<h1 id="misc" class="page__title">Misc</h1>
+
+<p>
+    As my favorite quote from <a href="https://casual-effects.com/morgan/index.html" target="_blank">Morgan McGuire</a>
+    goes, <em>good scientists do not just have good ideas, they also iterate through the mediocre ones very quickly to
+        get them out of the way</em>. In the process of time, I can gradually infer the important traits in research
+    from this quote, including <strong>passion</strong>, <strong>curiosity</strong>, <strong>quick-learning</strong>,
+    <strong>tenacity</strong>, and <strong>perseverance</strong>. In practice, I constantly examine whether I have had
+    these qualities and discipline myself to develop them.
+</p>
+
+<p>
+    To the best of my knowledge, research can be hard, challenging, and discouraging; we sometimes have to work alone,
+    facing consecutive failures, contending tediousness with passion and curiosity continuously. However, for me,
+    research is also exceedingly fulfilling and highly rewarding. I can get tremendous satisfaction from expanding the
+    boundary of human knowledge and collaborating with top-class intelligent researchers.
+</p>
