@@ -15,7 +15,8 @@
   //   -webkit-transform: translate3d(0, 0, 0);
   //   transform: translate3d(0, 0, 0);
   // }
-  padding-top: $masthead-height;
+  padding-top: 35px;
+
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
