@@ -290,7 +290,6 @@ defaults:
       date_format: "%Y-%m-%d"
       comments: true
       toc: true
-      sticky: true
 
 collections:
   publications:
