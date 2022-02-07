@@ -289,9 +289,7 @@ defaults:
       show_date: true
       date_format: "%Y-%m-%d"
       comments: true
-      # toc: true
-      # toc_sticky: true
-      # toc_label: "Table of Contents"
+      toc_label: "Table of Contents"
       toc_icon: "frog"
       toc_sticky: true
       toc_left: true
