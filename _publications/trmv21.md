@@ -21,7 +21,7 @@ We introduce temporally reliable motion vectors that aim at deeper exploration o
 
 ## Downloads
 
-[Paper (37MB)](page.paper){: .btn .btn--primary}
+[Paper (37MB)]({{page.paper}}){: .btn .btn--primary}
 [Slides (PPT, 24MB)]({{page.slides}}){: .btn .btn--primary}
 [Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary}
 [Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}

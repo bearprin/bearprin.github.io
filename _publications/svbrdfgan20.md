@@ -19,8 +19,8 @@ We want to recreate spatially-varying bi-directional reflectance distribution fu
 
 ## Downloads
 
-[Paper (35MB)](page.paper){: .btn .btn--primary}
-[Code](page.code){: .btn .btn--primary}
+[Paper (35MB)]({{page.paper}}){: .btn .btn--primary}
+[Code]({{page.code}}){: .btn .btn--primary}
 
 ## Cite
 

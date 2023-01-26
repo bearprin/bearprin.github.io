@@ -20,7 +20,7 @@ Stochastic progressive photon mapping (SPPM) is one of the important global illu
 
 ## Downloads
 
-[Paper (5MB)](page.paper){: .btn .btn--primary}
+[Paper (5MB)]({{page.paper}}){: .btn .btn--primary}
 [Slides (6MB)]({{page.slides}}){: .btn .btn--primary}
 [Presentation slides video (400MB)]({{page.presentation_slides_video}}){: .btn .btn--primary}
 
