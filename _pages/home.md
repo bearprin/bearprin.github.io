@@ -9,6 +9,8 @@ toc_left: true
 classes: wide
 ---
 
+# Workflow
+
 I am passionate about iteratively optimizing my scientific workflow and toolchain. I plan to summarize them into post later this year. For now, you can first check some tools I found useful in my workflow:
 
 * Personal Knowledge Base (Note Making): [Heptabase](https://heptabase.com/){:target="_blank"}
