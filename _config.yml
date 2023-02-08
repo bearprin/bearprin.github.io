@@ -293,7 +293,7 @@ defaults:
       toc_icon: "frog"
       toc_sticky: true
       toc_left: true
-      classes: wide
+      # classes: wide
 
 collections:
   publications:
