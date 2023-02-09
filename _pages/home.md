@@ -17,3 +17,5 @@ I am passionate about iteratively optimizing my scientific workflow and toolchai
 * Paper Organization and Reading: [Zotero](https://www.zotero.org/){:target="_blank"}
 
 I am also actively collecting related resources in [teach-yourself-research](https://github.com/zheng95z/teach-yourself-research){:target="_blank"} for developing basic research skills.
+
+![](assets/star.png)
