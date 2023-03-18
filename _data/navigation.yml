@@ -7,7 +7,7 @@ main:
   - title: "MISC"
     url: /#misc
   - title: "POSTS"
-    url: https://notion-next-zheng95z.vercel.app/
+    url: /posts/
 
   # - title: "Sample Collections"
   #   url: /collection-archive/
