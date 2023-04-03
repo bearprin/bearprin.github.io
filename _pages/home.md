@@ -6,7 +6,7 @@ toc_label: "Table of Contents"
 toc_icon: "frog"
 toc_sticky: true
 toc_left: true
-# classes: wide
+classes: wide
 ---
 
 I am passionate about iteratively optimizing my scientific workflow and toolchain. I plan to summarize them into post later this year. For now, you can first check some tools I found useful in my workflow:
