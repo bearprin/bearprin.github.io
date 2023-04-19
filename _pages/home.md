@@ -18,4 +18,4 @@ I am passionate about iteratively optimizing my scientific workflow and toolchai
 
 I am also actively collecting related resources in [teach-yourself-research](https://github.com/zheng95z/teach-yourself-research){:target="_blank"} for developing basic research skills.
 
-![Songyin's Glory]({{ site.url }}{{ site.baseurl }}/assets/images/star.png)
+<!-- ![Songyin's Glory]({{ site.url }}{{ site.baseurl }}/assets/images/star.png) -->
