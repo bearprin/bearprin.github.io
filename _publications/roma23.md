@@ -14,7 +14,7 @@ supplementary:
 supplemental_video:
 ---
 
-<p style="text-align:center; font-style:italic;">ROMA wasn't built in a day, but in milliseconds!</p>
+<p style="text-align:center; font-style:italic;">ROMA wasn't built in a day, but in 0.3 milliseconds!</p>
 
 ## Abstract
 
