@@ -2,7 +2,7 @@
 uid: 5
 layout: publication
 title: Ray-aligned Occupancy Map Array for Fast Approximate Ray Tracing
-authors: Anonymous authors
+authors: Anonymous author(s)
 
 publication: To be announced
 doi:
