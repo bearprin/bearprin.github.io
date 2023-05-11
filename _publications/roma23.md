@@ -39,8 +39,17 @@ Hardware Ray Tracing builds fast, traces fast, but requires specific hardwares. 
 
 ## How does ROMA work?
 
+Step 1: build a BOM (Base Occupancy Map). This is a standard OM which can be quickly generated using rasterization.
 
+Step 2: Copy the BOM and rotate towards different directions. The best part of this step is that it does not requires any further rasterization, but only performing within a compute shader.
 
+Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, and perform 1D ray tracing in O(1) time by bit operations.
+
+## Any other notes?
+
+- ROMA is scalable between performance and quality, by tuning the resolution of BOM (spatial resolution) and the number of rotated OMs (angular resolution).
+- ROMA is suitable for spatiotemporal rendering, by using differently randomized directions in Step 2 over time.
+- ROMA, as a ray tracing alternative, is not a solution to any specific light transport methods, e.g., ReSTIR for direct illumination, or DDGI for indirect illumination, and so on. One should expect to use ROMA **in combination with** these methods, whenever ray tracing is needed.
 
 
 <!-- ## Downloads -->
