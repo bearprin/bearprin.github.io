@@ -31,7 +31,7 @@ Hardware Ray Tracing builds fast, traces fast, but requires specific hardwares. 
 ## What is the idea of ROMA?
 
 <div style="text-align:center;">
-        <img src="/assets/images/pub/roma23_geom.png" style="max-width: 100%; height: auto;"/>
+        <img src="/assets/images/pub/roma23_geom.png" style="max-width: 80%; height: auto;"/>
 </div>
 
 3D Scene geometry can be compactly represented using a 2D texture map---occupancy map (OM)---a.k.a voxel bit bricks.
