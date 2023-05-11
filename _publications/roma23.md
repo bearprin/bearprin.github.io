@@ -47,9 +47,9 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 
 ## Any other notes?
 ---
-ROMA is scalable between performance and quality, by tuning the resolution of BOM (spatial resolution) and the number of rotated OMs (angular resolution).
-ROMA is suitable for spatiotemporal rendering, by using differently randomized directions in Step 2 over time.
-ROMA, as a ray tracing alternative, is not a solution to any specific light transport methods, e.g., ReSTIR for direct illumination, or DDGI for indirect illumination, and so on. One should expect to use ROMA **in combination with** these methods, whenever ray tracing is needed.
+- ROMA is scalable between performance and quality, by tuning the resolution of BOM (spatial resolution) and the number of rotated OMs (angular resolution).
+- ROMA is suitable for spatiotemporal rendering, by using differently randomized directions in Step 2 over time.
+- ROMA, as a ray tracing alternative, is not a solution to any specific light transport methods, e.g., ReSTIR for direct illumination, or DDGI for indirect illumination, and so on. One should expect to use ROMA **in combination with** these methods, whenever ray tracing is needed.
 
 
 <!-- ## Downloads -->
