@@ -51,6 +51,10 @@ Step 1: build a BOM (Base Occupancy Map). This is a standard OM which can be qui
 
 Step 2: Copy the BOM and rotate towards different directions. The best part of this step is that it does not requires any further rasterization, but only performing within a compute shader.
 
+<div style="text-align:center;">
+        <img src="/assets/images/pub/roma23_step3.gif" style="max-width: 100%; height: auto;"/>
+</div>
+
 Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, and perform 1D ray tracing in O(1) time by bit operations.
 
 ## Any other notes?
