@@ -69,6 +69,11 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 - ROMA is suitable for spatiotemporal rendering, by using differently randomized directions in Step 2 over time.
 - ROMA, as a ray tracing alternative, is not a solution to any specific light transport methods, e.g., ReSTIR for direct illumination, or DDGI for indirect illumination, and so on. One should expect to use ROMA **in combination with** these methods, whenever ray tracing is needed.
 
+## Results
+---
+
+<div style="display: flex;"><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video></div>
+
 
 <!-- ## Downloads -->
 
