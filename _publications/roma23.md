@@ -72,7 +72,8 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 ## Results
 ---
 
-<div style="display: flex;"><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls></video></div>
+<div style="display: flex; gap: 10px;"><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video></div>
+
 
 
 <!-- ## Downloads -->
