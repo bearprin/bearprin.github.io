@@ -71,10 +71,36 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 
 ## Results
 ---
+<head>
+  <style>
+    .video-container {
+      display: flex;
+      gap: 10px;
+    }
 
-<div style="display: flex; gap: 10px;"><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video><video src="/assets/videos/test.mp4" style="width: 33.33%; height: auto;" controls autoplay loop></video></div>
+    .video-container video {
+      width: 50.00%;
+      height: auto;
+    }
+  </style>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var videos = document.querySelectorAll('.video-container video');
+      videos.forEach(function(video) {
+        video.autoplay = true;
+        video.loop = true;
+        video.play();
+      });
+    });
+  </script>
+</head>
 
+<div style="display: flex; gap: 10px;"><video src="/assets/videos/test.mp4" style="width: 50.00%; height: auto;" controls autoplay loop></video><video src="/assets/videos/test.mp4" style="width: 50.00%; height: auto;" controls autoplay loop></video></div>
 
+<div class="video-container">
+    <video src="/assets/videos/test.mp4" controls></video>
+    <video src="/assets/videos/test.mp4" controls></video>
+</div>
 
 <!-- ## Downloads -->
 
