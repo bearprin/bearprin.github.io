@@ -39,6 +39,9 @@ Hardware Ray Tracing builds fast, traces fast, but requires specific hardwares. 
 
 ## How does ROMA work?
 ---
+<div style="text-align:center;">
+        <img src="/assets/images/pub/roma23_step1.gif" style="max-width: 50%; height: auto;"/>
+</div>
 Step 1: build a BOM (Base Occupancy Map). This is a standard OM which can be quickly generated using rasterization.
 
 Step 2: Copy the BOM and rotate towards different directions. The best part of this step is that it does not requires any further rasterization, but only performing within a compute shader.
