@@ -40,7 +40,7 @@ Hardware Ray Tracing builds fast, traces fast, but requires specific hardwares. 
         <img src="/assets/images/pub/roma23_iter.png" style="max-width: 50%; height: auto;"/>
 </div>
 
-Ray tracing in OM can be fast: a group of binary voxels along z-axis can be checked at once with one texture fetch and one bit operation. But the fastest case is when tracing the ray along z-axis. Therefore, we want to make some preparation---making multiple copies of OMs with different rotations---so that every ray can be traced along z-axis.
+Ray tracing in OM can be fast: a group of binary voxels along z-axis can be checked at once with one texture fetch and few bit operations. But the fastest case is when tracing the ray along the z-axis (one iteration in total). Therefore, we want to make some preparation---making multiple copies of OMs with different rotations---so that every ray can be traced along z-axis.
 
 
 ## How does ROMA work?
