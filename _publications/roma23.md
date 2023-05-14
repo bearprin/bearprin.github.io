@@ -75,9 +75,21 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
         <video src="/assets/videos/roma23_results1.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
 </div>
 
+<p style="text-align:center; font-style:italic;">Morphing Spot Scene</p>
+
 <div style="display: flex;">
         <video src="/assets/videos/roma23_results2.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
 </div>
+
+<p style="text-align:center; font-style:italic;">Abstract Scene</p>
+
+
+<div style="display: flex;">
+        <video src="/assets/videos/roma23_results3.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
+</div>
+
+<p style="text-align:center; font-style:italic;">BrainStem Scene</p>
+
 
 <!-- <div style="display: flex; gap: 10px;">
         <video src="/assets/videos/test.mp4" style="width: 50%; height: auto;" controls autoplay loop></video>
