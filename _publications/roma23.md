@@ -71,6 +71,11 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 
 ## Results
 ---
+<div style="display: flex;">
+        <video src="/assets/videos/roma23_results1.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
+</div>
+<div style="display: flex; gap: 10px;"><div>ROMA</div><div>Distance field</div><div>Reference</div></div>
+
 <!-- <div style="display: flex; gap: 10px;">
         <video src="/assets/videos/test.mp4" style="width: 50%; height: auto;" controls autoplay loop></video>
         <video src="/assets/videos/test.mp4" style="width: 50%; height: auto;" controls autoplay loop></video>
