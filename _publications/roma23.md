@@ -71,6 +71,14 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 
 ## Results
 ---
+The following videos compare ROMA with Distance Field (DF) and Hardware Ray Tracing (Ref.). More specificially:
+
+- Direct lighting is sampled from an area (disk) light source on the roof. All methods are sampling and tracing towards it to get direct lighting and soft shadow.
+- Indirect lighting is queried from a Reflective Shadow Map (RSM). All methods first tracing to get the secondary shading point, and then use it to query the RSM to get indirect lighting.
+- ROMA has a spatial resolution of 128^2 and a angular resolution of 8^2.
+- DF has a resolution of 128^3.
+
+
 <div style="display: flex;">
         <video src="/assets/videos/roma23_results1.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
 </div>
