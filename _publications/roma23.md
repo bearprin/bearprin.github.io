@@ -78,7 +78,7 @@ The following videos compare ROMA with Distance Field (DF) and Hardware Ray Trac
 - ROMA has a spatial resolution of 128^2 and a angular resolution of 8^2.
 - DF has a resolution of 128^3.
 
-Performance:
+All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9-10900K and an NVIDIA GeForce RTX 3080 Ti. The table reblow reports the performance:
 
 |      |    Generation   |     Tracing     |                                                                                                                                                                                                     |
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
