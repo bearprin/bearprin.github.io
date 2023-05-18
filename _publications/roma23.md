@@ -85,7 +85,6 @@ All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DF   | ~2.86 ms (3.2x) | ~0.90 ms (2.0x) | The generation of DF is slow. This is mainly due to the time complexity of the 3D Jump Flooding Algorithm.                                                                                          |
 | ROMA |        ~0.89 ms |        ~0.45 ms | Compared with DF, ROMA is consistently faster in both generation and tracing. ROMA also achieves faster tracing than HWRT (~0.50ms) even without hardware acceleration!                             |
-<!-- | HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting trick, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation.      | -->
 
 
 <div style="display: flex;">
