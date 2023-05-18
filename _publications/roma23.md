@@ -78,12 +78,40 @@ The following videos compare ROMA with Distance Field (DF) and Hardware Ray Trac
 - ROMA has a spatial resolution of 128^2 and a angular resolution of 8^2.
 - DF has a resolution of 128^3.
 
+Performance:
 
-|      | Generation | Tracing |
-|------|------------|---------|
-| DF   |    2.86 ms | 0.90 ms |
-| ROMA |    0.89 ms | 0.45 ms |
-| HWRT |    0.08 ms | 0.50 ms |
+|      |    Generation   |     Tracing     |                                                                                                                                                                                                     |
+|------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DF   | ~2.86 ms (3.2x) | ~0.90 ms (2.0x) | The generation of DF is slow. This is mainly due to the time complexity of the 3D Jump Flooding Algorithm.                                                                                          |
+| ROMA |        ~0.89 ms |        ~0.45 ms | Compared with DF, ROMA is consistently faster in both generation and tracing. Compared with HWRT, generating ROMA is slower but tracing is faster.                                                  |
+| HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting technology, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation. |
+
+<table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>Generation</th>
+      <th>Tracing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DF</td>
+      <td>2.86 ms</td>
+      <td>0.90 ms</td>
+    </tr>
+    <tr>
+      <td>ROMA</td>
+      <td>0.89 ms</td>
+      <td>0.45 ms</td>
+    </tr>
+    <tr>
+      <td>HWRT</td>
+      <td>0.08 ms</td>
+      <td>0.50 ms</td>
+    </tr>
+  </tbody>
+</table>
 
 
 <div style="display: flex;">
