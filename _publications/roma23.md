@@ -84,34 +84,7 @@ Performance:
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DF   | ~2.86 ms (3.2x) | ~0.90 ms (2.0x) | The generation of DF is slow. This is mainly due to the time complexity of the 3D Jump Flooding Algorithm.                                                                                          |
 | ROMA |        ~0.89 ms |        ~0.45 ms | Compared with DF, ROMA is consistently faster in both generation and tracing. Compared with HWRT, generating ROMA is slower but tracing is faster.                                                  |
-| HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting technology, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation. |
-
-<table>
-  <thead>
-    <tr>
-      <th>&nbsp;</th>
-      <th>Generation</th>
-      <th>Tracing</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>DF</td>
-      <td>2.86 ms</td>
-      <td>0.90 ms</td>
-    </tr>
-    <tr>
-      <td>ROMA</td>
-      <td>0.89 ms</td>
-      <td>0.45 ms</td>
-    </tr>
-    <tr>
-      <td>HWRT</td>
-      <td>0.08 ms</td>
-      <td>0.50 ms</td>
-    </tr>
-  </tbody>
-</table>
+| HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting trick, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation.      |
 
 
 <div style="display: flex;">
