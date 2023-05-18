@@ -73,8 +73,9 @@ Step 3: Given any ray, "snap" it to its closest rotation direction in Step 2, an
 ---
 The following videos compare ROMA with Distance Field (DF) and Hardware Ray Tracing (Ref.). More specificially:
 
-- Direct lighting is sampled from an area (disk) light source on the roof. All methods are sampling and tracing towards it to get direct lighting and soft shadow.
-- Indirect lighting is queried from a Reflective Shadow Map (RSM). All methods first tracing to get the secondary shading point, and then use it to query the RSM to get indirect lighting.
+- We want to show **soft shadows** from direct illumination and **color bleeding** from indirect illumination.
+- Direct illumination is sampled from an area (disk) light source on the roof. All methods are sampling and tracing towards it.
+- Indirect illumination is queried from a Reflective Shadow Map (RSM). All methods first tracing to get the secondary shading point, and then use it to query the RSM.
 - ROMA has a spatial resolution of 128^2 and a angular resolution of 8^2.
 - DF has a resolution of 128^3.
 
@@ -83,8 +84,8 @@ All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9
 |      |    Generation   |     Tracing     |                                                                                                                                                                                                     |
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DF   | ~2.86 ms (3.2x) | ~0.90 ms (2.0x) | The generation of DF is slow. This is mainly due to the time complexity of the 3D Jump Flooding Algorithm.                                                                                          |
-| ROMA |        ~0.89 ms |        ~0.45 ms | Compared with DF, ROMA is consistently faster in both generation and tracing. Compared with HWRT, generating ROMA is slower but tracing is faster.                                                  |
-| HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting trick, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation.      |
+| ROMA |        ~0.89 ms |        ~0.45 ms | Compared with DF, ROMA is consistently faster in both generation and tracing. ROMA also achieves faster tracing than HWRT (~0.50ms) even without hardware acceleration!                             |
+<!-- | HWRT |        ~0.08 ms | ~0.50 ms (1.1x) | With the BVH refitting trick, HWRT can modify BVH without an entirely new build for dynamic scenes. That's why in our small-scale test scenes it's faster than both ROMA and DF in generation.      | -->
 
 
 <div style="display: flex;">
