@@ -79,6 +79,13 @@ The following videos compare ROMA with Distance Field (DF) and Hardware Ray Trac
 - DF has a resolution of 128^3.
 
 
+|      | Generation | Tracing |
+|------|------------|---------|
+| DF   |    2.86 ms | 0.90 ms |
+| ROMA |    0.89 ms | 0.45 ms |
+| HWRT |    0.08 ms | 0.50 ms |
+
+
 <div style="display: flex;">
         <video src="/assets/videos/roma23_results1.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
 </div>
