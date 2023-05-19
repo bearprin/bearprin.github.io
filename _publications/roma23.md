@@ -78,8 +78,9 @@ The following videos compare ROMA with Distance Field (DF) and Hardware Ray Trac
 - Indirect illumination is queried from a Reflective Shadow Map (RSM). All methods first tracing to get the secondary shading point, and then use it to query the RSM.
 - ROMA has a spatial resolution of 128^2 and a angular resolution of 8^2.
 - DF has a resolution of 128^3.
+- The videos themselves do not reflect the performance, they are just 60FPS playback.
 
-All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9-10900K and an NVIDIA GeForce RTX 3080 Ti. The table reblow reports the performance:
+All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9-10900K and an NVIDIA GeForce RTX 3080 Ti. The table reblow reports the average performance on *Morphing Spot Scene*, *Abstract Scene*, and *BrainStem Scene* (similar scene complixity):
 
 |      |    Generation   |     Tracing     |                                                                                                                                                                                                     |
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
