@@ -80,7 +80,7 @@ The following videos compare ROMA with Distance Field (DF) and Hardware Ray Trac
 - DF has a resolution of 128^3.
 - The videos themselves do not reflect the performance, they are just 60FPS playback.
 
-All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9-10900K and an NVIDIA GeForce RTX 3080 Ti. The table reblow reports the average performance on *Morphing Spot Scene*, *Abstract Scene*, and *BrainStem Scene* (similar scene complixity):
+All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9-10900K and an NVIDIA GeForce RTX 3080 Ti. The table reblow reports the average performance on *Morphing Spot Scene*, *Morphing Spikes Scene*, and *BrainStem Scene* (similar scene complixity):
 
 |      |    Generation   |     Tracing     |                                                                                                                                                                                                     |
 |------|:---------------:|:---------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ All experiments and timings are conducted on a desktop with a 3.70 GHz Interl i9
         <video src="/assets/videos/roma23_results2.mp4" style="width: 100%; height: auto;" controls autoplay loop></video>
 </div>
 
-<p style="text-align:center; font-style:italic;">Abstract Scene</p>
+<p style="text-align:center; font-style:italic;">Morphing Spikes Scene</p>
 
 
 <div style="display: flex;">
