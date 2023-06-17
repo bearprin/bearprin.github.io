@@ -9,4 +9,4 @@ toc_left: true
 classes: wide
 ---
 
-I am looking for PhD to start in Fall 2024. Contact me if you have any leads!
+**I am looking for PhD to start in Fall 2024 (Rendering, and Geometry). Contact me if you have any leads!**

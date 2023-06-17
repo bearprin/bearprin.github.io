@@ -1,6 +1,7 @@
+---
 uid: 3
 layout: publication
-title: Laplacian2Mesh: Laplacian-Based Mesh Understanding
+title: "Laplacian2Mesh: Laplacian-Based Mesh Understanding"
 authors: Qiujie Dong, <b>Zixiong Wang</b>
 
 publication: IEEE Transactions on Visualization and Computer Graphics (TVCG)

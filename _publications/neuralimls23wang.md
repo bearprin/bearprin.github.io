@@ -1,3 +1,4 @@
+---
 uid: 3
 layout: publication
 title: "Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction"
