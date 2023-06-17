@@ -1,12 +1,12 @@
 ---
-uid: 3
+uid: 0
 layout: publication
 title: "Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction"
 authors: <b>Zixiong Wang</b>, Pengfei Wang, Pengshuai Wang, 
 
 publication: IEEE Transactions on Visualization and Computer Graphics (TVCG)
 pages: true
-doi: 10.1109/TVCG.2023.3284233
+doi: 
 paper: https://arxiv.org/abs/2109.04398
 code: https://github.com/bearprin/Neural-IMLS
 slides:
