@@ -4,17 +4,13 @@ layout: single
 
 <h1 id="about" class="page__title">About</h1>
 
-<p>Hi! I'm Zheng, currently a Ph.D. student at UC Santa Barbara, working with Prof. <a
-        href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Lingqi Yan</a>. I received my Master's and Bachelor's
-    degree at Shandong University, worked with Prof. <a href="http://vr.sdu.edu.cn/info/1010/1060.htm"
-        target="_blank">Lu Wang</a> and Prof. <a href="http://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank">Yanning
-        Xu</a>. I'm also very proud of being remotely advised by Prof. <a href="https://wangningbei.github.io/"
-        target="_blank">Beibei Wang</a>.
-</p>
+<p>I am Zixiong Wang. I received my Master's at Shandong University, worked with Prof. Shiqing Xin.</p>
 
-<p>My research mainly focuses on rendering, more specifically, real-time ray tracing, material modeling, and exploring
-    how emerging technologies can aid rendering.
-</p>
+<p>My research mainly focuses on computer graphics, more specifically, exploring how to create a digital world that closely reality.</p>
+
+
+<h1 id="news" class="page__title">News</h1>
+{{content}}
 
 <h1 id="publications" class="page__title">Publications</h1>
 
@@ -35,7 +31,9 @@ layout: single
 
 
                 <p>
+                    {% if pub.pages != null %}
                     <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
+                    {% endif %}
 
                     {% if pub.website != null %}
                     <a href="{{pub.website}}" target="_blank" class="btn btn--primary">Official website</a>
@@ -78,6 +76,4 @@ layout: single
 </div>
 {% endfor %}
 
-<h1 id="misc" class="page__title">Misc</h1>
 
-{{content}}

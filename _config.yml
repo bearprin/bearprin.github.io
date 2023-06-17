@@ -12,20 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zheng's Horadric Cube"
+title                    : "Wang's Homepage"
 title_separator          : "-"
-subtitle                 : "Stay awhile and listen."
-name                     : "ZHENG ZENG"
-description              : "Zheng's notes, thoughts, and publication."
-url                      : "https://zheng95z.github.io"
+subtitle                 : "Stay humble"
+name                     : "Bearprin"
+description              :
+url                      : "bearprin.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "zheng95z/zheng95z.github.io"
+repository               :
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png"
+logo                     :
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -93,23 +93,23 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-L3V3YFHY81"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Zheng Zeng"
-  avatar           : "/assets/images/profile2.jpg"
-  bio              : "Rendering,<br>Computer Graphics,<br>Computer Science."
+  name             : "Zixiong Wang"
+  avatar           : "/assets/images/profile.jpeg"
+  bio              : "Computer Graphics"
   location         :
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zhengzeng@ucsb.edu"
+      url: "mailto:zixiong_wang@outlook.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -121,7 +121,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/zheng95z"
+      url: "https://github.com/bearprin"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
