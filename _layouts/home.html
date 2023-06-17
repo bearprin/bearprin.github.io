@@ -31,7 +31,7 @@ layout: single
 
 
                 <p>
-                    {% if pub.pages != null && pub.pages != true%}
+                    {% if pub.pages != null && pub.pages == true%}
                     <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
                     {% else %}
                     <a href="{{pub.pages}}" target="_blank" class="btn btn--primary">Project Page</a>
