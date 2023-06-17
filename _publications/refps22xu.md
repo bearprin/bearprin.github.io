@@ -1,14 +1,14 @@
 ---
-uid: 2
+uid: 1
 layout: publication
-title: "Laplacian2Mesh: Laplacian-Based Mesh Understanding"
-authors: Qiujie Dong, <b>Zixiong Wang</b>
+title: "RFEPS: Reconstructing Feature-line Equipped Polygonal Surface"
+authors: <a hrep="https://xrvitd.github.io/">Rui Xu</a>, <b>Zixiong Wang</b>, Zhiyang Dou, Chen Zong, Shiqing Xin, Mingyan Jiang, Tao Ju, Changhe Tu
 
-publication: IEEE Transactions on Visualization and Computer Graphics (TVCG)
-pages: https://qiujiedong.github.io/publications/Laplacian2Mesh/
+publication: SIGGRAPH Asia 2022, ACM Transactions on Graphics (TOG)
+pages: https://xrvitd.github.io/Projects/RFEPS/index.html
 doi: 
-paper: https://arxiv.org/abs/2202.00307
-code: https://github.com/QiujieDong/Laplacian2Mesh
+paper: https://arxiv.org/abs/2212.03600
+code: https://github.com/Xrvitd/RFEPS
 slides:
 presentation_slides_video:
 supplementary:

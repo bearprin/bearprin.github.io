@@ -1,13 +1,13 @@
 ---
-uid: 3
+uid: 0
 layout: publication
 title: Restricted Delaunay Triangulation for Explicit Surface Reconstruction
 authors: Pengfei Wang, <b>Zixiong Wang</b>
 
 publication: ACM Transactions on Graphics (TOG)
-pages: https://doi.org/10.1145/3533768
+pages: 
 doi:
-paper: 
+paper: https://doi.org/10.1145/3533768
 code:
 slides:
 presentation_slides_video:
