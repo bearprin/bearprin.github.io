@@ -2,12 +2,12 @@
 main:
   - title: "ABOUT"
     url: /#about
+  - title: "NEWS"
+    url: /#news
   - title: "PUBLICATIONS"
     url: /#publications
-  - title: "MISC"
-    url: /#misc
-  - title: "POSTS"
-    url: /posts/
+#  - title: "PROJECTS"
+#    url: /#projects
 
   # - title: "Sample Collections"
   #   url: /collection-archive/
