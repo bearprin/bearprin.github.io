@@ -9,7 +9,8 @@ author_profile: true
     <div style="margin-top:10px;text-align:center;" class="publication-teaser">
         <img src="/assets/images/pub/{{ page.slug }}_teaser.png" alt="project teaser" />
     </div>
-  <p>
+  <div class="archive__item-body">
+    <p>
     {% if pub.website != null %}
     <a href="{{pub.website}}" target="_blank" class="btn btn--primary">Official website</a>
     {% endif %}
@@ -44,6 +45,7 @@ author_profile: true
     {% endif %}
 
   </p>
+  </div>
     {{ content }}
 
 </div>
