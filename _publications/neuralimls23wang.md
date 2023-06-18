@@ -35,5 +35,7 @@ Surface reconstruction is a challenging task when input point clouds, especially
   doi={10.1109/TVCG.2023.3284233}
  }
 ```
-## Copyright Disclaimer
-© The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not forredistribution. The definitive Version of Record is available at <a href="{{page.doi}}">DOI</a>.
+
+[//]: # (## Copyright Disclaimer)
+
+[//]: # (© The Author&#40;s&#41;. This is the author’s version of the work. It is posted here for your personal use. Not forredistribution. The definitive Version of Record is available at <a href="{{page.doi}}">DOI</a>.)
