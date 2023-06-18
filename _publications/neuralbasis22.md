@@ -5,6 +5,7 @@ title: Lightweight Neural Basis Functions for All-Frequency Shading
 authors: <a href="https://starry316.github.io/" target="_blank">Zilin Xu</a>, <b>Zheng Zeng</b>, <a href="https://winmad.github.io/" target="_blank">Lifan Wu</a>, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
 
 publication: SIGGRAPH ASIA 2022
+pages: true
 doi: https://doi.org/10.1145/3550469.3555386
 paper: http://sites.cs.ucsb.edu/~lingqi/publications/paper_neural_basis.pdf
 code:
