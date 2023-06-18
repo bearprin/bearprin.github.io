@@ -1,7 +1,7 @@
 ---
 uid: 3
 layout: publication
-permalink: /publications/neuralimls23wang
+permalink: /publications/
 collection: publications
 title: "Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction"
 authors: <b>Zixiong Wang</b>, Pengfei Wang, <a href="https://wang-ps.github.io/" target="_blank">Pengshuai Wang</a>, <a href="https://qiujiedong.github.io/" target="_blank">Qiujie Dong</a>, Junjie Gao, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>
