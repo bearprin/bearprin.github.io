@@ -13,7 +13,7 @@ code: https://github.com/Xrvitd/RFEPS
 slides:
 presentation_slides_video:
 supplementary:
-supplemental_video:
+supplemental_video: https://www.youtube.com/watch?v=iRP5z-JOCEc
 ---
 
 ## Abstract
