@@ -297,4 +297,4 @@ defaults:
 collections:
   publications:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:path/
