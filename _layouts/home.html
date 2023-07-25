@@ -43,6 +43,10 @@ layout: single
                     <a href="{{pub.website}}" target="_blank" class="btn btn--primary">Official website</a>
                     {% endif %}
 
+                    {% if pub.arxiv != null %}
+                    <a href="{{pub.arxiv}}" target="_blank" class="btn btn--primary">Paper</a>
+                    {% endif %}
+
                     {% if pub.paper != null %}
                     <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
                     {% endif %}

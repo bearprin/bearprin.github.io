@@ -8,7 +8,8 @@ authors: <b>Zixiong Wang</b>, Pengfei Wang, <a href="https://wang-ps.github.io/"
 publication: IEEE Transactions on Visualization and Computer Graphics (TVCG)
 pages: true
 doi: 
-paper: https://arxiv.org/abs/2109.04398
+arxiv: https://arxiv.org/abs/2109.04398
+paper: https://ieeexplore.ieee.org/document/10146518
 code: https://github.com/bearprin/Neural-IMLS
 slides:
 presentation_slides_video:
