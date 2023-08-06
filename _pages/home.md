@@ -11,4 +11,4 @@ classes: wide
 
 **I am looking for PhD to start in Fall 2024 (Rendering and Geometry). Contact me if you have any leads!**
 
-- **08/2023: We have two papers accepted by SIGGRAPH Asia 2023! The code will be released soon.**
+- **08/2023: Two papers accepted by SIGGRAPH Asia 2023.**
