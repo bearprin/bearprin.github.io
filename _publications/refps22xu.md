@@ -5,7 +5,7 @@ title: "RFEPS: Reconstructing Feature-line Equipped Polygonal Surface"
 authors: <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, <b>Zixiong Wang</b>, <a href="https://frank-zy-dou.github.io/" target="_blank">Zhiyang Dou</a>, Chen Zong, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, Mingyan Jiang, <a href="https://www.cs.wustl.edu/~taoju/" target="_blank">Tao Ju</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
 
 
-publication: ACM Transactions on Graphics (TOG, SIGGRAPH Asia 2022)
+publication: ACM Transactions on Graphics (TOG), SIGGRAPH Asia 2022
 pages: https://xrvitd.github.io/Projects/RFEPS/index.html
 doi: 
 paper: https://arxiv.org/abs/2212.03600

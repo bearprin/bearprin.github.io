@@ -4,7 +4,7 @@ layout: publication
 title: Restricted Delaunay Triangulation for Explicit Surface Reconstruction
 authors: Pengfei Wang, <b>Zixiong Wang</b>, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://gaoxifeng.github.io" target="_blank">Xifeng Gao</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
 
-publication: ACM Transactions on Graphics (TOG)
+publication: ACM Transactions on Graphics (TOG), 2022
 pages:
 doi:
 paper: https://doi.org/10.1145/3533768

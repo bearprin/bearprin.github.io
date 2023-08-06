@@ -4,7 +4,7 @@ layout: publication
 title: "Laplacian2Mesh: Laplacian-Based Mesh Understanding"
 authors: <a href="https://qiujiedong.github.io/" target="_blank">Qiujie Dong</a>, <b>Zixiong Wang</b>, <a href="https://manyili12345.github.io/">Manyi Li</a>, Junjie Gao, Shuangmin Chen, Zhenyu Shu, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>
 
-publication: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+publication: IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023
 pages: https://qiujiedong.github.io/publications/Laplacian2Mesh/
 doi: 
 paper: https://arxiv.org/abs/2202.00307
