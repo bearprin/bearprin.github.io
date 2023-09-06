@@ -5,6 +5,7 @@ title: "Neural-Singular-Hessian: Implicit Neural Representation of Unoriented Po
 authors: <b>Zixiong Wang</b>, Yunxiao Zhang, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Fan Zhang, <a href="https://wang-ps.github.io/" target="_blank">Pengshuai Wang</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
 
 publication: ACM Transactions on Graphics (TOG), SIGGRAPH Asia 2023
+arxiv: https://arxiv.org/abs/2309.01793
 pages:
 doi:
 paper: 
