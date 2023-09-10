@@ -9,6 +9,6 @@ toc_left: true
 classes: wide
 ---
 
-**I am looking for PhD to start in Fall 2024 (Rendering and Geometry). Contact me if you have any leads!**
+- **09/2023: I am excited to commence my Ph.D. journey within the render group led by [Bebei Wang](https://wangningbei.github.io/). Looking forward it!**
 
 - **08/2023: Two papers accepted by SIGGRAPH Asia 2023.**
