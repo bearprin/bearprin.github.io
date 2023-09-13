@@ -9,7 +9,7 @@ arxiv: https://arxiv.org/abs/2309.01793
 pages:
 doi:
 paper: 
-code:
+code: https://github.com/bearprin/Neural-Singular-Hessian
 slides:
 presentation_slides_video:
 supplementary:
