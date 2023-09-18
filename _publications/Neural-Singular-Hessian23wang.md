@@ -39,8 +39,7 @@ clouds with better expressiveness than existing fitting-based methods.
 ## Comparison Results
 
 ### SRB dataset
-
-<img src="/assets/images/neural_singular_hessian/srb_supp.png" style="zoom:70%; alt="SRB"/>
+    <img src="/assets/images/neural_singular_hessian/srb_supp.png" style="zoom:70%; alt="SRB"/>
 
 ### ABC dataset
 
