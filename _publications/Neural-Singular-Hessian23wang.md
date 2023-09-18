@@ -42,6 +42,8 @@ clouds with better expressiveness than existing fitting-based methods.
 
 <div style="text-align: center;">
     <img src="/assets/images/neural_singular_hessian/srb_supp.png" style="zoom:70%; alt="SRB"/>
+    <img src="/assets/images/pub/{{ page.slug }}_small.png" alt="{{pub.slug}} publication teaser" />
+
 </div>
 
 ### ABC dataset
