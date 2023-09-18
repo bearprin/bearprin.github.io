@@ -13,7 +13,7 @@ code: https://github.com/bearprin/Neural-Singular-Hessian
 slides:
 presentation_slides_video: 
 supplementary:
-supplemental_video:
+supplemental_video: https://youtu.be/dGHZjygGssY
 ---
 
 
@@ -27,6 +27,7 @@ supplemental_video:
 <div style="text-align: center;">
 <h2>Video</h2>
 </div>
+
 ## Cite
 
 ```bib
