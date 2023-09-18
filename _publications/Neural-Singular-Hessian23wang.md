@@ -39,7 +39,10 @@ clouds with better expressiveness than existing fitting-based methods.
 ## Comparison Results
 
 ### SRB dataset
+
+<div style="text-align: center;">
     <img src="/assets/images/neural_singular_hessian/srb_supp.png" style="zoom:70%; alt="SRB"/>
+</div>
 
 ### ABC dataset
 
@@ -52,6 +55,7 @@ clouds with better expressiveness than existing fitting-based methods.
 ## Reconstruction Results
 
 ### Three D Scans
+
 <model-viewer bounds="tight" enable-pan="" src="/assets/models/.glb" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" shadow-intensity="1" camera-orbit="auto auto 180deg" ar-status="not-presenting">
 </model-viewer>
 
