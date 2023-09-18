@@ -16,8 +16,6 @@ supplementary:
 supplemental_video: https://youtu.be/dGHZjygGssY
 ---
 
-<a href="{{page.arxiv}}" target="_blank" class="btn btn--primary">Arxiv</a>
-<a href="{{page.code}}" target="_blank" class="btn btn--primary">Code</a>
 
 ## Abstract
 

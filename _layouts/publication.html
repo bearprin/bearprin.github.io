@@ -3,13 +3,17 @@ layout: default
 author_profile: true
 ---
 <div id="main" , role="main">
-    <h1 style="margin-top:10px;text-align:center;"> {{ page.title }} </h1>
-    <div style="text-align:center;" class="publication-authors">{{ page.authors }}</div>
-    <div style="text-align:center;" class="publication-info">{{ page.publication }}</div>
-    <div style="margin-top:10px;text-align:center;" class="publication-teaser">
-        <img src="/assets/images/pub/{{ page.slug }}_teaser.png" alt="project teaser" />
-    </div>
+  <h1 style="margin-top:10px;text-align:center;"> {{ page.title }} </h1>
+  <div style="text-align:center;" class="publication-authors">{{ page.authors }}</div>
+  <div style="text-align:center;" class="publication-info">{{ page.publication }}</div>
+  <div style="text-align: center;">
+    <a href="{{page.arxiv}}" target="_blank" class="btn btn--primary">Arxiv</a>
+    <a href="{{page.code}}" target="_blank" class="btn btn--primary">Code</a>
+  </div>
+  <div style="margin-top:10px;text-align:center;" class="publication-teaser">
+    <img src="/assets/images/pub/{{ page.slug }}_teaser.png" alt="project teaser"/>
+  </div>
 
-    {{ content }}
+  {{ content }}
 
 </div>
