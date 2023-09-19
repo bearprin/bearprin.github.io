@@ -41,17 +41,20 @@ clouds with better expressiveness than existing fitting-based methods.
 ### SRB dataset
 
 <div style="text-align: center;">
-    <img src="/assets/images/neural_singular_hessian/srb_supp.png" alt="{{pub.slug}} publication teaser" />
-
+    <img src="/assets/images/neural_singular_hessian/srb_supp.png" alt="SRB" />
 </div>
 
 ### ABC dataset
 
-<img src="">
+<div style="text-align: center;">
+    <img src="/assets/images/neural_singular_hessian/abc_main.png" alt="ABC" />
+</div>
 
 ### Thingi10K dataset
 
-<img src="">
+<div style="text-align: center;">
+    <img src="/assets/images/neural_singular_hessian/thingi_main.png" alt="Thingi10K" />
+</div>
 
 ## Reconstruction Results
 
