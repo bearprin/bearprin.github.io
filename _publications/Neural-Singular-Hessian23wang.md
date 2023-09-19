@@ -56,15 +56,19 @@ clouds with better expressiveness than existing fitting-based methods.
     <img src="/assets/images/neural_singular_hessian/thingi_main.png" alt="Thingi10K" />
 </div>
 
-## Reconstruction Results
+[//]: # (## Reconstruction Results)
 
-### Three D Scans
+[//]: # ()
+[//]: # (### Three D Scans)
 
-<model-viewer bounds="tight" enable-pan="" src="/assets/models/.glb" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" shadow-intensity="1" camera-orbit="auto auto 180deg" ar-status="not-presenting">
-</model-viewer>
+[//]: # ()
+[//]: # (<model-viewer bounds="tight" enable-pan="" src="/assets/models/.glb" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" shadow-intensity="1" camera-orbit="auto auto 180deg" ar-status="not-presenting">)
 
+[//]: # (</model-viewer>)
 
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+[//]: # ()
+[//]: # ()
+[//]: # (<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>)
 
 ## Cite
 
