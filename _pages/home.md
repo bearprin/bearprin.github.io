@@ -11,4 +11,6 @@ classes: wide
 
 - **09/2023: I am excited to commence my Ph.D. journey within the render group led by [Bebei Wang](https://wangningbei.github.io/). Looking forward it!**
 
+- **09/2023: One paper accepted by NIPS 2023.**
+
 - **08/2023: Two papers accepted by SIGGRAPH Asia 2023.**
