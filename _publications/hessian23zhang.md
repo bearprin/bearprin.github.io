@@ -1,19 +1,19 @@
 ---
-uid: 6
+uid: 5
 layout: publication
-title: "Neural-Singular-Hessian: Implicit Neural Representation of Unoriented Point Clouds by Enforcing Singular Hessian"
-authors: <b>Zixiong Wang</b>, Yunxiao Zhang, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Fan Zhang, <a href="https://wang-ps.github.io/" target="_blank">Pengshuai Wang</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
+title: "A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing"
+authors: Yunxiao Zhang, <b>Zixiong Wang</b>, Zihan Zhao, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
 
-publication: ACM Transactions on Graphics (TOG), SIGGRAPH Asia 2023
-arxiv: https://arxiv.org/abs/2309.01793
-pages: true
-doi: https://doi.org/10.1145/3618311
+publication: SIGGRAPH Asia 2023
+arxiv: 
+pages: 
+doi:
 paper:
-code: https://github.com/bearprin/Neural-Singular-Hessian
+code: 
 slides:
 presentation_slides_video:
 supplementary:
-supplemental_video: https://youtu.be/dGHZjygGssY
+supplemental_video:
 ---
 
 ## Abstract
