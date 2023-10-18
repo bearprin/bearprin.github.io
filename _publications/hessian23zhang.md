@@ -1,5 +1,5 @@
 ---
-uid: 5
+uid: 4
 layout: publication
 title: "A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing"
 authors: Yunxiao Zhang, <b>Zixiong Wang</b>, Zihan Zhao, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
