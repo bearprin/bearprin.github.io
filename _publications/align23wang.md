@@ -3,7 +3,7 @@ uid: 4
 layout: publication
 title: "Aligning Gradient and Hessian for Neural Signed Distance Function"
 authors: Ruian Wang#, <b>Zixiong Wang#</b>, Yunxiao Zhang, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Fan Zhang, <a href="https://wang-ps.github.io/" target="_blank">Pengshuai Wang</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
-publication: _Neural Information Processing Systems_ (**NeurIPS**), 2023
+publication: _Neural Information Processing Systems_ ("**NeurIPS**"), 2023
 pages:
 doi: 
 paper: 
