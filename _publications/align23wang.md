@@ -6,9 +6,9 @@ authors: Ruian Wang#, <b>Zixiong Wang#</b>, Yunxiao Zhang, Shuangmin Chen, <a hr
 publication: Neural Information Processing Systems (NeurIPS), 2023
 pages:
 doi: 
-paper: 
+paper: https://openreview.net/forum?id=e0tt2G8hqf
 code:
-slides:
+slides: https://neurips.cc/virtual/2023/poster/70989
 presentation_slides_video:
 supplementary:
 supplemental_video:
