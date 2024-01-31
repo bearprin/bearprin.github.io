@@ -8,7 +8,7 @@ publication: SIGGRAPH Asia 2023
 arxiv: 
 pages: 
 doi:
-paper:
+paper: https://dl.acm.org/doi/10.1145/3610548.3618191
 code: 
 slides:
 presentation_slides_video:
