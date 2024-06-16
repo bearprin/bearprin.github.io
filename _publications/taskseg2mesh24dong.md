@@ -2,7 +2,7 @@
 uid: 7
 layout: publication
 title: "A Task-driven Network for Mesh Classification and Semantic Part Segmentation"
-authors: <a href="https://qiujiedong.github.io/" target="_blank">Qiujie Dong</a>, Xiaoran Gong, Rui Xu, <b>Zixiong Wang</b>, Junjie Gao, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>
+authors: <a href="https://qiujiedong.github.io/" target="_blank">Qiujie Dong</a>, Xiaoran Gong, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, <b>Zixiong Wang</b>, Junjie Gao, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>
 
 publication: Computer Aided Geometric Design (CAGD), 2024
 pages: https://qiujiedong.github.io/publications/TaskDrivenNet2Mesh/
