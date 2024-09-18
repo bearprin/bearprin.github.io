@@ -5,7 +5,7 @@ title: "A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editin
 authors: Yunxiao Zhang, <b>Zixiong Wang</b>, Zihan Zhao, <a href="https://xrvitd.github.io/" target="_blank">Rui Xu</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html" target="_blank">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html" target="_blank">Changhe Tu</a>
 
 publication: SIGGRAPH Asia 2023
-arxiv: 
+arxiv: https://arxiv.org/abs/2405.07644
 pages: 
 doi:
 paper: https://dl.acm.org/doi/10.1145/3610548.3618191
