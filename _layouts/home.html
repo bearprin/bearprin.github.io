@@ -57,10 +57,7 @@ layout: single
                     <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
                     {% endif %}
 
-                    {% if pub.code != null %}
-                  <a class="github-button" href="{{pub.code}}" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true">Star</a>
-<!--                    <a href="{{pub.code}}" target="_blank" class="btn btn&#45;&#45;primary">Code</a>-->
-                    {% endif %}
+
 
                     {% if pub.slides != null %}
                     <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides</a>
@@ -82,6 +79,11 @@ layout: single
                     {% if pub.doi != null %}
                     <a href="{{pub.doi}}" target="_blank" class="btn btn--primary">DOI</a>
                     {% endif %}
+
+                  {% if pub.code != null %}
+                  <a class="github-button" href="{{pub.code}}" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true">Star</a>
+                  <!--                    <a href="{{pub.code}}" target="_blank" class="btn btn&#45;&#45;primary">Code</a>-->
+                  {% endif %}
 
                 </p>
             </div>
