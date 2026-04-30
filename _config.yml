@@ -175,7 +175,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - AGENTS.md
+  - ANALYTICS.md
   - bin/
+  - CLAUDE.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -191,8 +194,12 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
+  - QUICKSTART.md
   - README.md
   - readme_preview/
+  - requirements.txt
+  - SEO.md
+  - TROUBLESHOOTING.md
   - vendor
   - archive_minimal_mistakes/
   - personal_assets/
