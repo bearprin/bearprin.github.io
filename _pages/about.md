@@ -37,3 +37,16 @@ Reviewer for:
 - ACM Transactions on Graphics (TOG)
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Visualization and Computer Graphics (TVCG)
+
+---
+
+<p style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light, #888); margin-top: 1.5em;">
+  {% if site.data.citations.total > 0 %}
+    Total citations: <strong>{{ site.data.citations.total }}</strong>
+    · h-index: <strong>{{ site.data.citations.h_index }}</strong>
+    · <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en" target="_blank">Google Scholar →</a>
+    <span style="font-size: 0.85em;">(updated {{ site.data.citations.updated }})</span>
+  {% else %}
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en" target="_blank">Google Scholar →</a>
+  {% endif %}
+</p>

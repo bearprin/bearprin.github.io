@@ -1,0 +1,48 @@
+name: Update Scholar citations
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # daily 07:00 UTC = 15:00 CST
+  workflow_dispatch:        # manual trigger
+
+permissions:
+  contents: write           # allow committing back to the repo
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install scholarly
+        run: pip install scholarly==1.7.11
+
+      - name: Fetch citations
+        env:
+          SCHOLAR_ID: DqEP_nIAAAAJ
+        run: |
+          python <<'PY'
+          import os, datetime, yaml
+          from scholarly import scholarly
+          author = scholarly.search_author_id(os.environ['SCHOLAR_ID'])
+          author = scholarly.fill(author, sections=['indices'])
+          out = {
+              'total': int(author.get('citedby', 0)),
+              'h_index': int(author.get('hindex', 0)),
+              'i10_index': int(author.get('i10index', 0)),
+              'updated': datetime.date.today().isoformat(),
+          }
+          with open('_data/citations.yml', 'w') as f:
+              yaml.safe_dump(out, f, sort_keys=False)
+          print(out)
+          PY
+
+      - name: Commit if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(citations): update from Google Scholar'
+          file_pattern: _data/citations.yml
