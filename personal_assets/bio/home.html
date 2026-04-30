@@ -1,0 +1,106 @@
+---
+layout: single
+---
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<h1 id="about" class="page__title">About</h1>
+
+<p>I am <b>Zixiong Wang (王子雄)</b>. I am a Ph.D. candidate supervised by <a href="https://wangningbei.github.io/" target="_blank"> Prof. Beibei Wang</a>. I received my Master's degree from the <a href="https://irc.cs.sdu.edu.cn/" target="_blank">Interdisciplinary Research Center (IRC) </a> of Shandong University, under the supervision of <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html" target="_blank"> Prof. Shiqing Xin</a>.</p>
+
+<p>
+  My research primarily focuses on 3D vision from the perspectives of geometry and rendering.
+  <span style="color: #D84315; font-weight: bold;">I welcome any opportunity for discussion and collaboration. Please feel free to reach out anytime!</span>
+</p>
+
+
+<h1 id="news" class="page__title">News</h1>
+{{content}}
+
+<h1 id="publications" class="page__title">Publications</h1>
+<p><b>*: co-first author</b></p>
+
+{% assign publications = site.publications | sort: "uid" | reverse %}
+{% for pub in publications %}
+<div class="feature_wrapper">
+    <div class="feature__item--left">
+        <div class="archive__item">
+            <div class="archive__item-teaser">
+<!--                <a href="{{pub.url}}">-->
+              <img src="/assets/images/pub/{{ pub.slug }}_small.png" alt="{{pub.slug}} publication teaser" />
+<!--                </a>-->
+            </div>
+            <div class="archive__item-body">
+                <div class="pubtitle">{{ pub.title }}</div>
+                <div class="pubauthors">{{ pub.authors }}</div>
+                <div class="pubinfo">{{ pub.publication }}</div>
+
+
+                <p>
+                    {% if pub.pages != null %}
+                      {% if pub.pages == true %}
+                        <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
+                      {% else %}
+                        <a href="{{pub.pages}}" target="_blank" class="btn btn--primary">Project Page</a>
+                      {% endif %}
+                    {% endif %}
+
+                    {% if pub.website != null %}
+                    <a href="{{pub.website}}" target="_blank" class="btn btn--primary">Official website</a>
+                    {% endif %}
+
+                    {% if pub.arxiv != null %}
+                    <a href="{{pub.arxiv}}" target="_blank" class="btn btn--primary">Arxiv</a>
+                    {% endif %}
+
+                    {% if pub.paper != null %}
+                    <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
+                    {% endif %}
+
+
+
+                    {% if pub.slides != null %}
+                    <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides</a>
+                    {% endif %}
+
+                    {% if pub.presentation_slides_video != null %}
+                    <a href="{{pub.presentation_slides_video}}" target="_blank" class="btn btn--primary">Presentation
+                        slides video</a>
+                    {% endif %}
+
+                    {% if pub.supplementary != null %}
+                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
+                    {% endif %}
+
+                    {% if pub.supplemental_video != null %}
+                    <a href="{{pub.supplemental_video}}" target="_blank" class="btn btn--primary">Supplemental video</a>
+                    {% endif %}
+
+                    {% if pub.doi != null %}
+                    <a href="{{pub.doi}}" target="_blank" class="btn btn--primary">DOI</a>
+                    {% endif %}
+
+                  {% if pub.code != null %}
+                  <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
+                  <a class="github-button" href="{{pub.code}}" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true">Star</a>
+                  {% endif %}
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <HR width="100%" color=#41879d size=1>
+</div>
+{% endfor %}
+
+<h1 id="Services" class="page__title">Services</h1>
+<ul>
+  <li>Reviewer: ACM Transactions on Graphics (TOG)</li>
+  <li>Reviewer: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </li>
+  <li>Reviewer: IEEE Transactions on Visualization and Computer Graphics (TVCG)</li>
+</ul>
+<!--<hr width="100%" color="#41879d" size="1">-->
+
+<div style="text-align: center;">
+<div style="display:inline-block;width:200px;"><script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5v5j3ookqvq&amp;m=0c&amp;c=ff5353&amp;cr1=3acc3a&amp;sx=0&amp;cw=2d78ad&amp;cb=ffffff" async="async"></script></div>
+</div>
