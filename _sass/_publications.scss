@@ -45,7 +45,8 @@
 
       img.preview {
         aspect-ratio: 16 / 9;
-        object-fit: cover;
+        object-fit: contain;
+        background-color: #f5f5f5;
         width: 100%;
         height: auto;
       }
@@ -192,4 +193,8 @@
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+html[data-theme="dark"] .publications ol.bibliography li img.preview {
+  background-color: #2a2a2a;
 }
