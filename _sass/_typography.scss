@@ -4,6 +4,45 @@
 
 @use "variables" as v;
 
+// Site-wide font stack: Inter for body/UI, Newsreader for headings.
+// Both pulled in via Google Fonts in _config.yml.
+$font-body:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif;
+$font-headings:
+  "Newsreader",
+  Georgia,
+  "Times New Roman",
+  serif;
+
+body {
+  font-family: $font-body;
+  font-feature-settings:
+    "cv02",
+    "cv03",
+    "cv04",
+    "cv11";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.page-title {
+  font-family: $font-headings;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
 p,
 h1,
 h2,
