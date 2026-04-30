@@ -1,34 +1,47 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"xin":
+  - firstname: ["Shiqing", "S."]
+    url: http://irc.cs.sdu.edu.cn/~shiqing/index.html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"xu":
+  - firstname: ["Rui", "R."]
+    url: https://xrvitd.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"tu":
+  - firstname: ["Changhe", "C."]
+    url: http://irc.cs.sdu.edu.cn/~chtu/index.html
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wang":
+  - firstname: ["Pengshuai", "P."]
+    url: https://wang-ps.github.io/
+  - firstname: ["Wenping", "W."]
+    url: https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html
+  - firstname: ["Beibei", "B."]
+    url: https://wangningbei.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"dou":
+  - firstname: ["Zhiyang", "Z."]
+    url: https://frank-zy-dou.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"ju":
+  - firstname: ["Tao", "T."]
+    url: https://www.cs.wustl.edu/~taoju/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"dong":
+  - firstname: ["Qiujie", "Q."]
+    url: https://qiujiedong.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"li":
+  - firstname: ["Manyi", "M."]
+    url: https://manyili12345.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"gao":
+  - firstname: ["Xifeng", "X."]
+    url: https://gaoxifeng.github.io
+
+"hasan":
+  - firstname: ["Miloš", "Milos", "M."]
+    url: http://miloshasan.net/
+
+"hu":
+  - firstname: ["Yiwei", "Y."]
+    url: https://yiweihu.netlify.app/
