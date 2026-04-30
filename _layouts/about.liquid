@@ -33,7 +33,11 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="more-info">
+            {% assign protected_email = 'zixiong_wang@outlook.com' %}
+            <p><a href="mailto:{{ protected_email | encode_email }}">{{ protected_email | html_encode_email }}</a></p>
+            {{ page.profile.more_info }}
+          </div>
         {% endif %}
       </div>
     {% endif %}

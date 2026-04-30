@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href="mailto:zixiong_wang@outlook.com">zixiong_wang@outlook.com</a></p>
     <p>Advisor: <a href="https://wangningbei.github.io/" target="_blank">Prof. Beibei Wang</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
