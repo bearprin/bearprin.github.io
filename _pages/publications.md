@@ -13,6 +13,10 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p style="font-size: 0.9em; color: var(--global-text-color-light, #888); margin-bottom: 1.5em;">
+  <span>* Equal contribution</span>
+</p>
+
 <div class="publications">
 
 {% bibliography %}

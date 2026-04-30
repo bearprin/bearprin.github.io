@@ -28,7 +28,7 @@ latest_posts:
 
 I am **Zixiong Wang (王子雄)**. I am a Ph.D. candidate supervised by [Prof. Beibei Wang](https://wangningbei.github.io/){:target="\_blank"}. I received my Master's degree from the [Interdisciplinary Research Center (IRC)](https://irc.cs.sdu.edu.cn/){:target="\_blank"} of Shandong University, under the supervision of [Prof. Shiqing Xin](http://irc.cs.sdu.edu.cn/~shiqing/index.html){:target="\_blank"}.
 
-My research primarily focuses on 3D vision from the perspectives of geometry and rendering. <span style="color: #D84315; font-weight: bold;">I welcome any opportunity for discussion and collaboration. Please feel free to reach out anytime!</span>
+My research primarily focuses on 3D vision from the perspectives of <span style="color: var(--global-theme-color); font-weight: 600;">geometry and rendering</span>. <span style="color: #D84315; font-weight: bold;">I welcome any opportunity for discussion and collaboration. Please feel free to reach out anytime!</span>
 
 ## Services
 
