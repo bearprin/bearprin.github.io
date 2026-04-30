@@ -1,115 +1,126 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{dong2024taskdriven,
+  abbr        = {CAGD},
+  bibtex_show = {true},
+  title       = {A Task-driven Network for Mesh Classification and Semantic Part Segmentation},
+  author      = {Dong, Qiujie and Gong, Xiaoran and Xu, Rui and Wang, Zixiong and Gao, Junjie and Chen, Shuangmin and Xin, Shiqing and Tu, Changhe and Wang, Wenping},
+  journal     = {Computer Aided Geometric Design},
+  year        = {2024},
+  publisher   = {Elsevier},
+  pdf         = {https://www.sciencedirect.com/science/article/pii/S0167839624000384},
+  code        = {https://github.com/QiujieDong/TaskDrivenNet2Mesh},
+  website     = {https://qiujiedong.github.io/publications/TaskDrivenNet2Mesh/},
+  preview     = {publication_preview/task_driven_mesh.png}
 }
 
-@book{einstein1956investigations,
+@inproceedings{wang2023aligning,
+  abbr        = {NeurIPS},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  selected    = {true},
+  title       = {Aligning Gradient and Hessian for Neural Signed Distance Function},
+  author      = {Wang, Ruian and Wang, Zixiong and Zhang, Yunxiao and Chen, Shuangmin and Xin, Shiqing and Tu, Changhe and Wang, Wenping},
+  booktitle   = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year        = {2023},
+  pdf         = {https://openreview.net/pdf?id=e0tt2G8hqf},
+  website     = {https://neurips.cc/virtual/2023/poster/70989},
+  preview     = {publication_preview/align_gradient_hessian.png},
+  annotation  = {* Equal contribution: Ruian Wang and Zixiong Wang},
+  note        = {Co-first authors: Ruian Wang and Zixiong Wang}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@article{wang2023neuralsingularhessian,
+  abbr        = {SIGGRAPH Asia},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
+  selected    = {true},
+  title       = {Neural-Singular-Hessian: Implicit Neural Representation of Unoriented Point Clouds by Enforcing Singular Hessian},
+  author      = {Wang, Zixiong and Zhang, Yunxiao and Xu, Rui and Zhang, Fan and Wang, Pengshuai and Chen, Shuangmin and Xin, Shiqing and Wang, Wenping and Tu, Changhe},
+  journal     = {ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},
+  volume      = {42},
   number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  year        = {2023},
+  publisher   = {ACM},
+  doi         = {10.1145/3618311},
+  arxiv       = {2309.01793},
+  code        = {https://github.com/bearprin/Neural-Singular-Hessian},
+  video       = {https://youtu.be/dGHZjygGssY},
+  website     = {https://bearprin.com/publications/Neural-Singular-Hessian23wang/},
+  abstract    = {Neural implicit representation is a promising approach for reconstructing surfaces from point clouds. Existing methods combine various regularization terms, such as the Eikonal and Laplacian energy terms, to enforce the learned neural function to possess the properties of a Signed Distance Function (SDF). However, inferring the actual topology and geometry of the underlying surface from poor-quality unoriented point clouds remains challenging. In accordance with Differential Geometry, the Hessian of the SDF is singular for points within the differential thin-shell space surrounding the surface. Our approach enforces the Hessian of the neural implicit function to have a zero determinant for points near the surface. This technique aligns the gradients for a near-surface point and its on-surface projection point, producing a rough but faithful shape within just a few iterations. By annealing the weight of the singular-Hessian term, our approach ultimately produces a high-fidelity reconstruction result.},
+  preview     = {publication_preview/neural_singular_hessian.png}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@inproceedings{zhang2023hessianfield,
+  abbr        = {SIGGRAPH Asia},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  title       = {A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing},
+  author      = {Zhang, Yunxiao and Wang, Zixiong and Zhao, Zihan and Xu, Rui and Chen, Shuangmin and Xin, Shiqing and Wang, Wenping and Tu, Changhe},
+  booktitle   = {SIGGRAPH Asia 2023 Conference Papers},
+  year        = {2023},
+  publisher   = {ACM},
+  doi         = {10.1145/3610548.3618191},
+  arxiv       = {2405.07644},
+  pdf         = {https://dl.acm.org/doi/10.1145/3610548.3618191},
+  preview     = {publication_preview/hessian_field_deformer.png}
 }
 
-@book{przibram1967letters,
+@article{wang2023neuralimls,
+  abbr        = {TVCG},
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  selected    = {true},
+  title       = {Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction},
+  author      = {Wang, Zixiong and Wang, Pengfei and Wang, Pengshuai and Dong, Qiujie and Gao, Junjie and Chen, Shuangmin and Xin, Shiqing and Tu, Changhe and Wang, Wenping},
+  journal     = {IEEE Transactions on Visualization and Computer Graphics},
+  year        = {2023},
+  pages       = {1--16},
+  doi         = {10.1109/TVCG.2023.3284233},
+  arxiv       = {2109.04398},
+  pdf         = {https://ieeexplore.ieee.org/document/10146518},
+  code        = {https://github.com/bearprin/Neural-IMLS},
+  abstract    = {Surface reconstruction is a challenging task when input point clouds, especially real scans, are noisy and lack normals. Observing that the Multilayer Perceptron (MLP) and the implicit moving least-square function (IMLS) provide a dual representation of the underlying surface, we introduce Neural-IMLS, a novel approach that directly learns a noise-resistant signed distance function (SDF) from unoriented raw point clouds in a self-supervised manner. In particular, IMLS regularizes MLP by providing estimated SDFs near the surface and helps enhance its ability to represent geometric details and sharp features, while MLP regularizes IMLS by providing estimated normals. We prove that at convergence, our neural network produces a faithful SDF whose zero-level set approximates the underlying surface due to the mutual learning mechanism between the MLP and the IMLS.},
+  preview     = {publication_preview/neural_imls.png}
+}
+
+@article{dong2023laplacian2mesh,
+  abbr        = {TVCG},
+  bibtex_show = {true},
+  title       = {Laplacian2Mesh: Laplacian-Based Mesh Understanding},
+  author      = {Dong, Qiujie and Wang, Zixiong and Li, Manyi and Gao, Junjie and Chen, Shuangmin and Shu, Zhenyu and Xin, Shiqing and Tu, Changhe and Wang, Wenping},
+  journal     = {IEEE Transactions on Visualization and Computer Graphics},
+  year        = {2023},
+  arxiv       = {2202.00307},
+  pdf         = {https://arxiv.org/abs/2202.00307},
+  code        = {https://github.com/QiujieDong/Laplacian2Mesh},
+  website     = {https://qiujiedong.github.io/publications/Laplacian2Mesh/},
+  preview     = {publication_preview/laplacian2mesh.png}
+}
+
+@article{xu2022rfeps,
+  abbr        = {SIGGRAPH Asia},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {RFEPS: Reconstructing Feature-line Equipped Polygonal Surface},
+  author      = {Xu, Rui and Wang, Zixiong and Dou, Zhiyang and Zong, Chen and Xin, Shiqing and Jiang, Mingyan and Ju, Tao and Tu, Changhe},
+  journal     = {ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},
+  year        = {2022},
+  publisher   = {ACM},
+  arxiv       = {2212.03600},
+  pdf         = {https://arxiv.org/abs/2212.03600},
+  code        = {https://github.com/Xrvitd/RFEPS},
+  video       = {https://www.youtube.com/watch?v=iRP5z-JOCEc},
+  website     = {https://xrvitd.github.io/Projects/RFEPS/index.html},
+  preview     = {publication_preview/rfeps.png}
+}
+
+@article{wang2022restricted,
+  abbr        = {TOG},
+  bibtex_show = {true},
+  title       = {Restricted Delaunay Triangulation for Explicit Surface Reconstruction},
+  author      = {Wang, Pengfei and Wang, Zixiong and Xin, Shiqing and Gao, Xifeng and Wang, Wenping and Tu, Changhe},
+  journal     = {ACM Transactions on Graphics},
+  year        = {2022},
+  publisher   = {ACM},
+  doi         = {10.1145/3533768},
+  pdf         = {https://doi.org/10.1145/3533768},
+  preview     = {publication_preview/restricted_delaunay.png}
 }
