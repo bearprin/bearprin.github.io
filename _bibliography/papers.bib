@@ -44,7 +44,7 @@
   arxiv       = {2309.01793},
   code        = {https://github.com/bearprin/Neural-Singular-Hessian},
   video       = {https://youtu.be/dGHZjygGssY},
-  website     = {https://bearprin.com/publications/Neural-Singular-Hessian23wang/},
+  website     = {/publications/neural-singular-hessian/},
   abstract    = {Neural implicit representation is a promising approach for reconstructing surfaces from point clouds. Existing methods combine various regularization terms, such as the Eikonal and Laplacian energy terms, to enforce the learned neural function to possess the properties of a Signed Distance Function (SDF). However, inferring the actual topology and geometry of the underlying surface from poor-quality unoriented point clouds remains challenging. In accordance with Differential Geometry, the Hessian of the SDF is singular for points within the differential thin-shell space surrounding the surface. Our approach enforces the Hessian of the neural implicit function to have a zero determinant for points near the surface. This technique aligns the gradients for a near-surface point and its on-surface projection point, producing a rough but faithful shape within just a few iterations. By annealing the weight of the singular-Hessian term, our approach ultimately produces a high-fidelity reconstruction result.},
   preview     = {publication_preview/neural_singular_hessian.png}
 }
@@ -76,6 +76,7 @@
   arxiv       = {2109.04398},
   pdf         = {https://ieeexplore.ieee.org/document/10146518},
   code        = {https://github.com/bearprin/Neural-IMLS},
+  website     = {/publications/neural-imls/},
   abstract    = {Surface reconstruction is a challenging task when input point clouds, especially real scans, are noisy and lack normals. Observing that the Multilayer Perceptron (MLP) and the implicit moving least-square function (IMLS) provide a dual representation of the underlying surface, we introduce Neural-IMLS, a novel approach that directly learns a noise-resistant signed distance function (SDF) from unoriented raw point clouds in a self-supervised manner. In particular, IMLS regularizes MLP by providing estimated SDFs near the surface and helps enhance its ability to represent geometric details and sharp features, while MLP regularizes IMLS by providing estimated normals. We prove that at convergence, our neural network produces a faithful SDF whose zero-level set approximates the underlying surface due to the mutual learning mechanism between the MLP and the IMLS.},
   preview     = {publication_preview/neural_imls.png}
 }
