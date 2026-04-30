@@ -43,6 +43,13 @@
         display: inline-block;
       }
 
+      img.preview {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 
