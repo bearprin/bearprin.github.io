@@ -4,7 +4,24 @@ import os
 import sys
 import yaml
 from datetime import datetime
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
+
+
+def setup_proxy() -> None:
+    """Configure scholarly proxy. ScraperAPI if SCRAPER_API_KEY env is set, else FreeProxies."""
+    pg = ProxyGenerator()
+    api_key = os.environ.get("SCRAPER_API_KEY")
+    if api_key:
+        if pg.ScraperAPI(api_key):
+            scholarly.use_proxy(pg)
+            print("Proxy: ScraperAPI configured.")
+            return
+        print("Warning: ScraperAPI setup failed, falling back to FreeProxies.")
+    if pg.FreeProxies():
+        scholarly.use_proxy(pg)
+        print("Proxy: FreeProxies configured.")
+        return
+    print("Warning: No proxy configured. Direct request likely blocked by Scholar.")
 
 
 def load_scholar_user_id() -> str:
@@ -62,8 +79,9 @@ def get_scholar_citations() -> None:
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
-    scholarly.set_timeout(15)
-    scholarly.set_retries(3)
+    setup_proxy()
+    scholarly.set_timeout(30)
+    scholarly.set_retries(5)
     try:
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
         author_data = scholarly.fill(author)
