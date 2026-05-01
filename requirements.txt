@@ -2,3 +2,4 @@ nbconvert
 pyyaml
 rendercv[full]
 scholarly[free-proxies]
+httpx<0.28
