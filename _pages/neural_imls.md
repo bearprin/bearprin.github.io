@@ -1,19 +1,24 @@
 ---
 layout: page
-title: Neural-IMLS
+title: "Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction"
 permalink: /publications/neural-imls/
-description: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction (IEEE TVCG 2023)
+description: ""
 nav: false
 ---
 
-<div class="row">
-  <div class="col-12 text-center">
-    <p>
-      <a href="https://arxiv.org/abs/2109.04398" class="btn btn-sm btn-outline-primary mr-2">arXiv</a>
-      <a href="https://doi.org/10.1109/TVCG.2023.3284233" class="btn btn-sm btn-outline-primary mr-2">DOI</a>
-      <a href="https://ieeexplore.ieee.org/document/10146518" class="btn btn-sm btn-outline-primary mr-2">Paper</a>
-      <a href="https://github.com/bearprin/Neural-IMLS" class="btn btn-sm btn-outline-primary">Code</a>
-    </p>
+<div style="text-align: center; margin: 0.5em 0 2em 0;">
+  <p style="font-size: 0.98em; line-height: 1.7; margin: 0 auto 1.2em auto; max-width: 760px; color: var(--global-text-color);">
+    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Pengfei Wang, Pengshuai Wang, Qiujie Dong, Junjie Gao, Shuangmin Chen, Shiqing Xin, Changhe Tu, Wenping Wang
+  </p>
+
+  <p style="margin-bottom: 1.1em;">
+    <a href="https://doi.org/10.1109/TVCG.2023.3284233" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+    <a href="https://arxiv.org/abs/2109.04398" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-lines"></i> arXiv</a>
+    <a href="https://github.com/bearprin/Neural-IMLS" class="btn btn-sm btn-outline-primary"><i class="fa-brands fa-github"></i> Code</a>
+  </p>
+
+  <div style="display: inline-block; padding: 0.45em 1.2em; border-radius: 999px; background: rgba(0,128,128,0.1); border: 1px solid var(--global-theme-color); color: var(--global-theme-color); font-weight: 600; font-size: 0.95em; letter-spacing: 0.02em;">
+    <i class="fa-solid fa-book-open fa-sm" style="margin-right: 0.45em;"></i>IEEE Transactions on Visualization and Computer Graphics &middot; 2023
   </div>
 </div>
 

@@ -1,16 +1,23 @@
 ---
 layout: page
-title: HiMat
+title: "HiMat: DiT-based Ultra-High Resolution SVBRDF Generation"
 permalink: /publications/himat/
-description: DiT-based Ultra-High Resolution SVBRDF Generation (Eurographics 2026)
+description: ""
 nav: false
 ---
 
-<div class="row">
-  <div class="col-12 text-center">
-    <p>
-      <a href="https://arxiv.org/abs/2508.07011" class="btn btn-sm btn-outline-primary mr-2">arXiv</a>
-    </p>
+<div style="text-align: center; margin: 0.5em 0 2em 0;">
+  <p style="font-size: 0.98em; line-height: 1.7; margin: 0 auto 1.2em auto; max-width: 760px; color: var(--global-text-color);">
+    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Jian Yang, Yiwei Hu, Milo&scaron; Ha&scaron;an, Beibei Wang
+  </p>
+
+  <p style="margin-bottom: 1.1em;">
+    <a href="https://doi.org/10.1111/cgf.70343" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+    <a href="https://arxiv.org/abs/2508.07011" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-file-lines"></i> arXiv</a>
+  </p>
+
+  <div style="display: inline-block; padding: 0.45em 1.2em; border-radius: 999px; background: rgba(0,128,128,0.1); border: 1px solid var(--global-theme-color); color: var(--global-theme-color); font-weight: 600; font-size: 0.95em; letter-spacing: 0.02em;">
+    <i class="fa-solid fa-book-open fa-sm" style="margin-right: 0.45em;"></i>Computer Graphics Forum (Proc. Eurographics) &middot; 2026
   </div>
 </div>
 
@@ -60,9 +67,12 @@ To address these challenges, HiMat employs a high-compression autoencoder (DC-AE
 
 ```bibtex
 @article{wang2026himat,
-  title={HiMat: DiT-based Ultra-High Resolution SVBRDF Generation},
-  author={Wang, Zixiong and Yang, Jian and Hu, Yiwei and Ha{\v{s}}an, Milo{\v{s}} and Wang, Beibei},
-  journal={Computer Graphics Forum (Proc. Eurographics)},
-  year={2026}
+  title   = {HiMat: DiT-based Ultra-High Resolution SVBRDF Generation},
+  author  = {Wang, Zixiong and Yang, Jian and Hu, Yiwei and Ha{\v{s}}an, Milo{\v{s}} and Wang, Beibei},
+  journal = {Computer Graphics Forum (Proc. Eurographics)},
+  year    = {2026},
+  month   = mar,
+  doi     = {10.1111/cgf.70343},
+  publisher = {Wiley}
 }
 ```

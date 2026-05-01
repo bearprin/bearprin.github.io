@@ -37,6 +37,13 @@ layout: default
             {% assign protected_email = 'zixiong_wang@outlook.com' %}
             <p><a href="mailto:{{ protected_email | encode_email }}">{{ protected_email | html_encode_email }}</a></p>
             {{ page.profile.more_info }}
+            {% if site.data.citations.total and site.data.citations.total > 0 %}
+              <p style="margin-top: 0.6em; font-size: 0.85em; color: var(--global-text-color-light, #888);">
+                <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en" target="_blank" style="text-decoration: none; color: inherit;">
+                  <strong style="color: var(--global-theme-color);">{{ site.data.citations.total }}</strong> citations · h-index <strong style="color: var(--global-theme-color);">{{ site.data.citations.h_index }}</strong>
+                </a>
+              </p>
+            {% endif %}
           </div>
         {% endif %}
       </div>
@@ -60,11 +67,12 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+    <!-- Publications -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
+      <h2>publications</h2>
+      <p style="font-size: 0.9em; color: var(--global-text-color-light, #888); margin-bottom: 1em;">
+        <span>* Equal contribution</span>
+      </p>
       {% include selected_papers.liquid %}
     {% endif %}
 

@@ -1,19 +1,25 @@
 ---
 layout: page
-title: Neural-Singular-Hessian
+title: "Neural-Singular-Hessian: Implicit Neural Representation of Unoriented Point Clouds by Enforcing Singular Hessian"
 permalink: /publications/neural-singular-hessian/
-description: Implicit Neural Representation of Unoriented Point Clouds by Enforcing Singular Hessian (SIGGRAPH Asia 2023)
+description: ""
 nav: false
 ---
 
-<div class="row">
-  <div class="col-12 text-center">
-    <p>
-      <a href="https://arxiv.org/abs/2309.01793" class="btn btn-sm btn-outline-primary mr-2">arXiv</a>
-      <a href="https://doi.org/10.1145/3618311" class="btn btn-sm btn-outline-primary mr-2">DOI</a>
-      <a href="https://github.com/bearprin/Neural-Singular-Hessian" class="btn btn-sm btn-outline-primary mr-2">Code</a>
-      <a href="https://youtu.be/dGHZjygGssY" class="btn btn-sm btn-outline-primary">Video</a>
-    </p>
+<div style="text-align: center; margin: 0.5em 0 2em 0;">
+  <p style="font-size: 0.98em; line-height: 1.7; margin: 0 auto 1.2em auto; max-width: 760px; color: var(--global-text-color);">
+    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Yunxiao Zhang, Rui Xu, Fan Zhang, Pengshuai Wang, Shuangmin Chen, Shiqing Xin, Wenping Wang, Changhe Tu
+  </p>
+
+  <p style="margin-bottom: 1.1em;">
+    <a href="https://doi.org/10.1145/3618311" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+    <a href="https://arxiv.org/abs/2309.01793" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-lines"></i> arXiv</a>
+    <a href="https://github.com/bearprin/Neural-Singular-Hessian" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-brands fa-github"></i> Code</a>
+    <a href="https://youtu.be/dGHZjygGssY" class="btn btn-sm btn-outline-primary"><i class="fa-brands fa-youtube"></i> Video</a>
+  </p>
+
+  <div style="display: inline-block; padding: 0.45em 1.2em; border-radius: 999px; background: rgba(0,128,128,0.1); border: 1px solid var(--global-theme-color); color: var(--global-theme-color); font-weight: 600; font-size: 0.95em; letter-spacing: 0.02em;">
+    <i class="fa-solid fa-book-open fa-sm" style="margin-right: 0.45em;"></i>ACM Transactions on Graphics (Proc. SIGGRAPH Asia) &middot; 2023
   </div>
 </div>
 

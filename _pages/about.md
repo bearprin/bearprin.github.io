@@ -25,9 +25,9 @@ latest_posts:
   limit: 3
 ---
 
-I am **Zixiong Wang (王子雄)**. I am a Ph.D. candidate supervised by [Prof. Beibei Wang](https://wangningbei.github.io/){:target="\_blank"}. I received my Master's degree from the [Interdisciplinary Research Center (IRC)](https://irc.cs.sdu.edu.cn/){:target="\_blank"} of Shandong University, under the supervision of [Prof. Shiqing Xin](http://irc.cs.sdu.edu.cn/~shiqing/index.html){:target="\_blank"}.
+I am **Zixiong Wang (王子雄, Zion)**. I am a Ph.D. candidate supervised by [Prof. Beibei Wang](https://wangningbei.github.io/){:target="\_blank"}. I received my Master's degree from the [Interdisciplinary Research Center (IRC)](https://irc.cs.sdu.edu.cn/){:target="\_blank"} of Shandong University, under the supervision of [Prof. Shiqing Xin](http://irc.cs.sdu.edu.cn/~shiqing/index.html){:target="\_blank"}.
 
-My research primarily focuses on 3D vision from the perspectives of <span style="color: var(--global-theme-color); font-weight: 600;">geometry and rendering</span>. <span style="color: #D84315; font-weight: bold;">I welcome any opportunity for discussion and collaboration. Please feel free to reach out anytime!</span>
+My research primarily focuses on 3D vision from the perspectives of <span style="color: var(--global-theme-color); font-weight: 600;">geometry and rendering</span>. <span style="color: var(--global-theme-color); font-weight: 600;">I welcome any opportunity for discussion and collaboration — please feel free to reach out anytime.</span>
 
 ## Services
 
@@ -36,16 +36,3 @@ Reviewer for:
 - ACM Transactions on Graphics (TOG)
 - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - IEEE Transactions on Visualization and Computer Graphics (TVCG)
-
----
-
-<p style="text-align: center; font-size: 0.9em; color: var(--global-text-color-light, #888); margin-top: 1.5em;">
-  {% if site.data.citations.total > 0 %}
-    Total citations: <strong>{{ site.data.citations.total }}</strong>
-    · h-index: <strong>{{ site.data.citations.h_index }}</strong>
-    · <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en" target="_blank">Google Scholar →</a>
-    <span style="font-size: 0.85em;">(updated {{ site.data.citations.updated }})</span>
-  {% else %}
-    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en" target="_blank">Google Scholar →</a>
-  {% endif %}
-</p>

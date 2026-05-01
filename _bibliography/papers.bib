@@ -1,6 +1,50 @@
 ---
 ---
 
+@article{wang2026himat,
+  abbr        = {CGF},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {HiMat: DiT-based Ultra-High Resolution SVBRDF Generation},
+  author      = {Wang, Zixiong and Yang, Jian and Hu, Yiwei and Ha{\v{s}}an, Milo{\v{s}} and Wang, Beibei},
+  journal     = {Computer Graphics Forum (Proc. Eurographics)},
+  year        = {2026},
+  month       = mar,
+  publisher   = {Wiley},
+  doi         = {10.1111/cgf.70343},
+  arxiv       = {2508.07011},
+  website     = {/publications/himat/},
+  abstract    = {Creating ultra-high-resolution spatially varying bidirectional reflectance functions (SVBRDFs) is critical for photorealistic 3D content creation, to faithfully represent fine-scale surface details required for close-up rendering. However, achieving 4K generation faces two key challenges: (1) the need to synthesize multiple reflectance maps at full resolution, which multiplies the pixel budget and imposes prohibitive memory and computational cost, and (2) the requirement to maintain strong pixel-level alignment across maps at 4K, which is particularly difficult when adapting pretrained models designed for the RGB image domain. We introduce HiMat, a diffusion-based framework tailored for efficient and diverse 4K SVBRDF generation. To address the first challenge, HiMat performs generation in a high-compression latent space via DC-AE, and employs a pretrained diffusion transformer with linear attention to improve per-map efficiency. To address the second challenge, we propose CrossStitch, a lightweight convolutional module that enforces cross-map consistency without incurring the cost of global attention. Our experiments show that HiMat achieves high-fidelity 4K SVBRDF generation with superior efficiency, structural consistency, and diversity compared to prior methods. Beyond materials, our framework also generalizes to related applications such as intrinsic decomposition.},
+  preview     = {himat.png},
+  author_role = {first}
+}
+
+@inproceedings{tang2026fabricgen,
+  abbr        = {CVPR},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {FabricGen: Microstructure-Aware Woven Fabric Generation},
+  author      = {Tang, Yingjie and Luo, Di and Wang, Zixiong and Ling, Xiaoli and Yang, Jian and Wang, Beibei},
+  booktitle   = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year        = {2026},
+  arxiv       = {2603.07240},
+  abstract    = {Woven fabric materials are widely used in rendering applications, yet designing realistic examples typically involves multiple stages, requiring expertise in weaving principles and texture authoring. Recent advances have explored diffusion models to streamline this process; however, pre-trained diffusion models often struggle to generate intricate yarn-level details that conform to weaving rules. To address this, we present FabricGen, an end-to-end framework for generating high-quality woven fabric materials from textual descriptions. A key insight of our method is the decomposition of macro-scale textures and micro-scale weaving patterns. To generate macro-scale textures free from microstructures, we fine-tune pre-trained diffusion models on a collected dataset of microstructure-free fabrics. As for micro-scale weaving patterns, we develop an enhanced procedural geometric model capable of synthesizing natural yarn-level geometry with yarn sliding and flyaway fibers. The procedural model is driven by a specialized large language model, WeavingLLM, which is fine-tuned on an annotated dataset of formatted weaving drafts, and prompt-tuned with domain-specific fabric expertise.},
+  preview     = {fabricgen.png}
+}
+
+@inproceedings{li2026puresample,
+  abbr        = {SIGGRAPH},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {PureSample: Neural Materials Learned by Sampling Microgeometry},
+  author      = {Li, Zixuan and Wang, Zixiong and Yang, Jian and Ha{\v{s}}an, Milo{\v{s}} and Wang, Beibei},
+  booktitle   = {ACM SIGGRAPH 2026 Conference Papers},
+  year        = {2026},
+  arxiv       = {2508.07240},
+  abstract    = {Traditional physically-based material models rely on analytically derived bidirectional reflectance distribution functions (BRDFs), typically by considering statistics of micro-primitives such as facets, flakes, or spheres, sometimes combined with multi-bounce interactions such as layering and multiple scattering. We present PureSample: a novel neural BRDF representation that allows learning a material's behavior purely by sampling forward random walks on the microgeometry. The approach uses two learnable components: first, the sampling distribution is modeled using a flow matching neural network, which allows both importance sampling and pdf evaluation; second, we introduce a view-dependent albedo term, captured by a lightweight neural network, which allows for converting a scalar pdf value to a colored BRDF value for any pair of view and light directions.},
+  preview     = {puresample.png}
+}
+
 @article{dong2024taskdriven,
   abbr        = {CAGD},
   bibtex_show = {true},
@@ -13,7 +57,7 @@
   code        = {https://github.com/QiujieDong/TaskDrivenNet2Mesh},
   website     = {https://qiujiedong.github.io/publications/TaskDrivenNet2Mesh/},
   abstract    = {Given the rapid advancements in geometric deep-learning techniques, there has been a dedicated effort to create mesh-based convolutional operators that act as a link between irregular mesh structures and widely adopted backbone networks. Despite the numerous advantages of Convolutional Neural Networks (CNNs) over Multi-Layer Perceptrons (MLPs), mesh-oriented CNNs often require intricate network architectures to tackle irregularities of a triangular mesh. These architectures not only demand that the mesh be manifold and watertight but also impose constraints on the abundance of training samples. In this paper, we note that for specific tasks such as mesh classification and semantic part segmentation, large-scale shape features play a pivotal role. This is in contrast to the realm of shape correspondence, where a comprehensive understanding of 3D shapes necessitates considering both local and global characteristics. Inspired by this key observation, we introduce a task-driven neural network architecture that seamlessly operates in an end-to-end fashion. Our method takes as input mesh vertices equipped with the heat kernel signature (HKS) and dihedral angles between adjacent faces. Notably, we replace the conventional convolutional module, commonly found in ResNet architectures, with MLPs and incorporate Layer Normalization (LN) to facilitate layer-wise normalization. Our approach, with a seemingly straightforward network architecture, demonstrates an accuracy advantage. It exhibits a marginal 0.1% improvement in the mesh classification task and a substantial 1.8% enhancement in the mesh part segmentation task compared to state-of-the-art methodologies. Moreover, as the number of training samples decreases to 1/50 or even 1/100, the accuracy advantage of our approach becomes more pronounced. In summary, our convolution-free network is tailored for specific tasks relying on large-scale shape features and excels in the situation with a limited number of training samples, setting itself apart from state-of-the-art methodologies.},
-  preview     = {publication_preview/task_driven_mesh.png}
+  preview     = {task_driven_mesh.png}
 }
 
 @inproceedings{wang2023aligning,
@@ -27,12 +71,13 @@
   pdf         = {https://openreview.net/pdf?id=e0tt2G8hqf},
   website     = {https://neurips.cc/virtual/2023/poster/70989},
   abstract    = {The Signed Distance Function (SDF), as an implicit surface representation, provides a crucial method for reconstructing a watertight surface from unorganized point clouds. The SDF has a fundamental relationship with the principles of surface vector calculus. Given a smooth surface, there exists a thin-shell space in which the SDF is differentiable everywhere such that the gradient of the SDF is an eigenvector of its Hessian matrix, with a corresponding eigenvalue of zero. In this paper, we introduce a method to directly learn the SDF from point clouds in the absence of normals. Our motivation is grounded in a fundamental observation: aligning the gradient and the Hessian of the SDF provides a more efficient mechanism to govern gradient directions. This, in turn, ensures that gradient changes more accurately reflect the true underlying variations in shape. Extensive experimental results demonstrate its ability to accurately recover the underlying shape while effectively suppressing the presence of ghost geometry.},
-  preview     = {publication_preview/align_gradient_hessian.png},
-  annotation  = {* Equal contribution: Ruian Wang and Zixiong Wang}
+  preview     = {align_gradient_hessian.png},
+  annotation  = {* Equal contribution: Ruian Wang and Zixiong Wang},
+  author_role = {co-first}
 }
 
 @article{wang2023neuralsingularhessian,
-  abbr        = {SIGGRAPH Asia},
+  abbr        = {TOG},
   bibtex_show = {true},
   selected    = {true},
   title       = {Neural-Singular-Hessian: Implicit Neural Representation of Unoriented Point Clouds by Enforcing Singular Hessian},
@@ -48,7 +93,8 @@
   video       = {https://youtu.be/dGHZjygGssY},
   website     = {/publications/neural-singular-hessian/},
   abstract    = {Neural implicit representation is a promising approach for reconstructing surfaces from point clouds. Existing methods combine various regularization terms, such as the Eikonal and Laplacian energy terms, to enforce the learned neural function to possess the properties of a Signed Distance Function (SDF). However, inferring the actual topology and geometry of the underlying surface from poor-quality unoriented point clouds remains challenging. In accordance with Differential Geometry, the Hessian of the SDF is singular for points within the differential thin-shell space surrounding the surface. Our approach enforces the Hessian of the neural implicit function to have a zero determinant for points near the surface. This technique aligns the gradients for a near-surface point and its on-surface projection point, producing a rough but faithful shape within just a few iterations. By annealing the weight of the singular-Hessian term, our approach ultimately produces a high-fidelity reconstruction result.},
-  preview     = {publication_preview/neural_singular_hessian.png}
+  preview     = {neural_singular_hessian.png},
+  author_role = {first}
 }
 
 @inproceedings{zhang2023hessianfield,
@@ -61,9 +107,8 @@
   publisher   = {ACM},
   doi         = {10.1145/3610548.3618191},
   arxiv       = {2405.07644},
-  pdf         = {https://dl.acm.org/doi/10.1145/3610548.3618191},
   abstract    = {Shape manipulation is a central research topic in computer graphics. Topology editing, such as breaking apart connections, joining disconnected ends, and filling/opening a topological hole, is generally more challenging than geometry editing. In this paper, we observe that the saddle points of the signed distance function (SDF) provide useful hints for altering surface topology deliberately. Based on this key observation, we parameterize the SDF into a cubic trivariate tensor-product B-spline function $F$ whose saddle points $\{\boldsymbol{s}_i\}$ can be quickly exhausted based on a subdivision-based root-finding technique coupled with Newton's method. Users can select one of the candidate points, say $\boldsymbol{s}_i$, to edit the topology in real time. In implementation, we add a compactly supported B-spline function rooted at $\boldsymbol{s}_i$, which we call a \textit{deformer} in this paper, to $F$, with its local coordinate system aligning with the three eigenvectors of the Hessian. Combined with ray marching technique, our interactive system operates at 30 FPS. Additionally, our system empowers users to create desired bulges or concavities on the surface. An extensive user study indicates that our system is user-friendly and intuitive to operate. We demonstrate the effectiveness and usefulness of our system in a range of applications, including fixing surface reconstruction errors, artistic work design, 3D medical imaging and simulation, and antiquity restoration. Please refer to the attached video for a demonstration.},
-  preview     = {publication_preview/hessian_field_deformer.png}
+  preview     = {hessian_field_deformer.png}
 }
 
 @article{wang2023neuralimls,
@@ -77,11 +122,11 @@
   pages       = {1--16},
   doi         = {10.1109/TVCG.2023.3284233},
   arxiv       = {2109.04398},
-  pdf         = {https://ieeexplore.ieee.org/document/10146518},
   code        = {https://github.com/bearprin/Neural-IMLS},
   website     = {/publications/neural-imls/},
   abstract    = {Surface reconstruction is a challenging task when input point clouds, especially real scans, are noisy and lack normals. Observing that the Multilayer Perceptron (MLP) and the implicit moving least-square function (IMLS) provide a dual representation of the underlying surface, we introduce Neural-IMLS, a novel approach that directly learns a noise-resistant signed distance function (SDF) from unoriented raw point clouds in a self-supervised manner. In particular, IMLS regularizes MLP by providing estimated SDFs near the surface and helps enhance its ability to represent geometric details and sharp features, while MLP regularizes IMLS by providing estimated normals. We prove that at convergence, our neural network produces a faithful SDF whose zero-level set approximates the underlying surface due to the mutual learning mechanism between the MLP and the IMLS.},
-  preview     = {publication_preview/neural_imls.png}
+  preview     = {neural_imls.png},
+  author_role = {first}
 }
 
 @article{dong2023laplacian2mesh,
@@ -92,29 +137,26 @@
   journal     = {IEEE Transactions on Visualization and Computer Graphics},
   year        = {2023},
   arxiv       = {2202.00307},
-  pdf         = {https://arxiv.org/abs/2202.00307},
   code        = {https://github.com/QiujieDong/Laplacian2Mesh},
   website     = {https://qiujiedong.github.io/publications/Laplacian2Mesh/},
   abstract    = {Geometric deep learning has sparked a rising interest in computer graphics to perform shape understanding tasks, such as shape classification and semantic segmentation. When the input is a polygonal surface, one has to suffer from the irregular mesh structure. Motivated by the geometric spectral theory, we introduce Laplacian2Mesh, a novel and flexible convolutional neural network (CNN) framework for coping with irregular triangle meshes (vertices may have any valence). By mapping the input mesh surface to the multi-dimensional Laplacian-Beltrami space, Laplacian2Mesh enables one to perform shape analysis tasks directly using the mature CNNs, without the need to deal with the irregular connectivity of the mesh structure. We further define a mesh pooling operation such that the receptive field of the network can be expanded while retaining the original vertex set as well as the connections between them. Besides, we introduce a channel-wise self-attention block to learn the individual importance of feature ingredients. Laplacian2Mesh not only decouples the geometry from the irregular connectivity of the mesh structure but also better captures the global features that are central to shape classification and segmentation. Extensive tests on various datasets demonstrate the effectiveness and efficiency of Laplacian2Mesh, particularly in terms of the capability of being vulnerable to noise to fulfill various learning tasks.},
-  preview     = {publication_preview/laplacian2mesh.png}
+  preview     = {laplacian2mesh.png}
 }
 
 @article{xu2022rfeps,
-  abbr        = {SIGGRAPH Asia},
+  abbr        = {TOG},
   bibtex_show = {true},
-  selected    = {true},
   title       = {RFEPS: Reconstructing Feature-line Equipped Polygonal Surface},
   author      = {Xu, Rui and Wang, Zixiong and Dou, Zhiyang and Zong, Chen and Xin, Shiqing and Jiang, Mingyan and Ju, Tao and Tu, Changhe},
   journal     = {ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},
   year        = {2022},
   publisher   = {ACM},
   arxiv       = {2212.03600},
-  pdf         = {https://arxiv.org/abs/2212.03600},
   code        = {https://github.com/Xrvitd/RFEPS},
   video       = {https://www.youtube.com/watch?v=iRP5z-JOCEc},
   website     = {https://xrvitd.github.io/Projects/RFEPS/index.html},
   abstract    = {Feature lines are important geometric cues in characterizing the structure of a CAD model. Despite great progress in both explicit reconstruction and implicit reconstruction, it remains a challenging task to reconstruct a polygonal surface equipped with feature lines, especially when the input point cloud is noisy and lacks faithful normal vectors. In this paper, we develop a multistage algorithm, named RFEPS, to address this challenge. The key steps include (1)denoising the point cloud based on the assumption of local planarity, (2)identifying the feature-line zone by optimization of discrete optimal transport, (3)augmenting the point set so that sufficiently many additional points are generated on potential geometry edges, and (4) generating a polygonal surface that interpolates the augmented point set based on restricted power diagram. We demonstrate through extensive experiments that RFEPS, benefiting from the edge-point augmentation and the feature-preserving explicit reconstruction, outperforms state-of-the-art methods in terms of the reconstruction quality, especially in terms of the ability to reconstruct missing feature lines.},
-  preview     = {publication_preview/rfeps.png}
+  preview     = {rfeps.png}
 }
 
 @article{wang2022restricted,
@@ -126,7 +168,6 @@
   year        = {2022},
   publisher   = {ACM},
   doi         = {10.1145/3533768},
-  pdf         = {https://doi.org/10.1145/3533768},
   abstract    = {The task of explicit surface reconstruction is to generate a surface mesh by interpolating a given point cloud. Explicit surface reconstruction is necessary when the point cloud is required to appear exactly on the surface. However, for a non-perfect input, such as lack of normals, low density, irregular distribution, thin and tiny parts, and high genus, a robust explicit reconstruction method that can generate a high-quality manifold triangulation is missing. The proposed approach starts from an initial simple surface mesh, alternately performing a Filmsticking step and a Sculpting step of the initial mesh, and converges when the surface mesh interpolates all input points (except outliers) and remains stable. The Filmsticking minimizes the geometric distance between the surface mesh and the point cloud through iteratively performing a restricted Voronoi diagram technique on the surface mesh, whereas the Sculpting bootstraps the Filmsticking iteration from local minima by applying appropriate geometric and topological changes of the surface mesh. The algorithm is fully automatic and produces high-quality surface meshes for non-perfect inputs on both simulated and real scans.},
-  preview     = {publication_preview/restricted_delaunay.png}
+  preview     = {restricted_delaunay.png}
 }
