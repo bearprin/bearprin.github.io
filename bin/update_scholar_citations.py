@@ -77,8 +77,6 @@ def get_scholar_citations() -> None:
                 f"Warning: Could not read existing citation data from {OUTPUT_FILE}: {e}. The file may be missing or corrupted."
             )
 
-    citation_data = {"metadata": {"last_updated": today}, "papers": {}}
-
     setup_proxy()
     scholarly.set_timeout(30)
     scholarly.set_retries(5)
@@ -100,6 +98,19 @@ def get_scholar_citations() -> None:
     if "publications" not in author_data:
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
         sys.exit(1)
+
+    citation_data = {
+        "total": author_data.get("citedby", 0),
+        "h_index": author_data.get("hindex", 0),
+        "i10_index": author_data.get("i10index", 0),
+        "updated": today,
+        "metadata": {"last_updated": today},
+        "papers": {},
+    }
+    print(
+        f"Author totals — citations: {citation_data['total']}, "
+        f"h-index: {citation_data['h_index']}, i10-index: {citation_data['i10_index']}"
+    )
 
     for pub in author_data["publications"]:
         try:
