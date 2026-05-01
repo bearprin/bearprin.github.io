@@ -9,10 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "news-two-papers-accepted-by-siggraph-asia-2023",
-          title: 'Two papers accepted by SIGGRAPH Asia 2023.',
-          description: "",
-          section: "News",},{id: "news-fabricgen-accepted-by-cvpr-2026",
+  },{id: "news-fabricgen-accepted-by-cvpr-2026",
           title: 'FabricGen accepted by CVPR 2026.',
           description: "",
           section: "News",},{id: "news-himat-accepted-by-eurographics-2026-cgf",
