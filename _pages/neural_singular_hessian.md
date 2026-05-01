@@ -8,7 +8,7 @@ nav: false
 
 <div style="text-align: center; margin: 0.5em 0 2em 0;">
   <p style="font-size: 0.98em; line-height: 1.7; margin: 0 auto 1.2em auto; max-width: 760px; color: var(--global-text-color);">
-    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Yunxiao Zhang, Rui Xu, Fan Zhang, Pengshuai Wang, Shuangmin Chen, Shiqing Xin, Wenping Wang, Changhe Tu
+    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Yunxiao Zhang, <a href="https://xrvitd.github.io/">Rui Xu</a>, Fan Zhang, <a href="https://wang-ps.github.io/">Pengshuai Wang</a>, Shuangmin Chen, <a href="http://irc.cs.sdu.edu.cn/~shiqing/index.html">Shiqing Xin</a>, <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a>, <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html">Changhe Tu</a>
   </p>
 
   <p style="margin-bottom: 1.1em;">

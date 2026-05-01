@@ -8,7 +8,7 @@ nav: false
 
 <div style="text-align: center; margin: 0.5em 0 2em 0;">
   <p style="font-size: 0.98em; line-height: 1.7; margin: 0 auto 1.2em auto; max-width: 760px; color: var(--global-text-color);">
-    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Jian Yang, Yiwei Hu, Milo&scaron; Ha&scaron;an, Beibei Wang
+    <strong style="color: var(--global-theme-color);">Zixiong Wang</strong>, Jian Yang, <a href="https://yiweihu.netlify.app/">Yiwei Hu</a>, <a href="http://miloshasan.net/">Milo&scaron; Ha&scaron;an</a>, <a href="https://wangningbei.github.io/">Beibei Wang</a>
   </p>
 
   <p style="margin-bottom: 1.1em;">
