@@ -1,9 +1,7 @@
-total: 297
 h_index: 6
 i10_index: 6
-updated: '2026-05-01'
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-04'
 papers:
   DqEP_nIAAAAJ:2osOgNQ5qMEC:
     citations: 70
@@ -22,11 +20,11 @@ papers:
     title: A task-driven network for mesh classification and semantic part segmentation
     year: '2024'
   DqEP_nIAAAAJ:UeHWp8X0CEIC:
-    citations: 55
+    citations: 56
     title: 'Neural-singular-hessian: Implicit neural representation of unoriented point clouds by enforcing singular hessian'
     year: '2023'
   DqEP_nIAAAAJ:d1gkVwhDpl0C:
-    citations: 46
+    citations: 47
     title: Restricted delaunay triangulation for explicit surface reconstruction
     year: '2022'
   DqEP_nIAAAAJ:qjMakFHDy7sC:
@@ -37,3 +35,5 @@ papers:
     citations: 3
     title: A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing
     year: '2023'
+total: 299
+updated: '2026-05-04'
