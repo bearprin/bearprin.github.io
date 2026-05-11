@@ -1,14 +1,14 @@
 h_index: 6
 i10_index: 6
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-11'
 papers:
   DqEP_nIAAAAJ:2osOgNQ5qMEC:
     citations: 70
     title: 'Laplacian2mesh: Laplacian-based mesh understanding'
     year: '2023'
   DqEP_nIAAAAJ:9yKSN-GCB0IC:
-    citations: 55
+    citations: 56
     title: 'Rfeps: Reconstructing feature-line equipped polygonal surface'
     year: '2022'
   DqEP_nIAAAAJ:IjCSPb-OGe4C:
@@ -24,7 +24,7 @@ papers:
     title: 'Neural-singular-hessian: Implicit neural representation of unoriented point clouds by enforcing singular hessian'
     year: '2023'
   DqEP_nIAAAAJ:d1gkVwhDpl0C:
-    citations: 47
+    citations: 48
     title: Restricted delaunay triangulation for explicit surface reconstruction
     year: '2022'
   DqEP_nIAAAAJ:qjMakFHDy7sC:
@@ -35,5 +35,5 @@ papers:
     citations: 3
     title: A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing
     year: '2023'
-total: 299
-updated: '2026-05-04'
+total: 301
+updated: '2026-05-11'
