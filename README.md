@@ -26,18 +26,18 @@ images under `assets/img/`.
 
 ## Where things live
 
-| Path                              | Purpose                                            |
-| --------------------------------- | -------------------------------------------------- |
-| `_pages/about.md`                 | Homepage bio + Services subsection.                |
-| `_news/*.md`                      | News bullets shown on the about page.              |
-| `_bibliography/papers.bib`        | Publications, with `selected={true}` highlights.   |
-| `_pages/publications.md`          | Publications page (auto-renders the bib file).     |
-| `_data/socials.yml`               | Email + GitHub handle for the social block.        |
-| `assets/img/prof_pic.jpeg`        | Profile photo.                                     |
-| `assets/img/publication_preview/` | Per-paper thumbnails referenced from the bib.      |
-| `_sass/_variables.scss`           | Theme palette (defines `$teal-color`).             |
-| `_sass/_themes.scss`              | Light/dark `--global-theme-color` bindings.        |
-| `_sass/_typography.scss`          | Site font stack (Inter body / Newsreader heads).   |
+| Path                              | Purpose                                          |
+| --------------------------------- | ------------------------------------------------ |
+| `_pages/about.md`                 | Homepage bio + Services subsection.              |
+| `_news/*.md`                      | News bullets shown on the about page.            |
+| `_bibliography/papers.bib`        | Publications, with `selected={true}` highlights. |
+| `_pages/publications.md`          | Publications page (auto-renders the bib file).   |
+| `_data/socials.yml`               | Email + GitHub handle for the social block.      |
+| `assets/img/prof_pic.jpeg`        | Profile photo.                                   |
+| `assets/img/publication_preview/` | Per-paper thumbnails referenced from the bib.    |
+| `_sass/_variables.scss`           | Theme palette (defines `$teal-color`).           |
+| `_sass/_themes.scss`              | Light/dark `--global-theme-color` bindings.      |
+| `_sass/_typography.scss`          | Site font stack (Inter body / Newsreader heads). |
 
 ## Snapshots
 

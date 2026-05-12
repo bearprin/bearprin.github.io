@@ -15,19 +15,11 @@ $font-body:
   "Helvetica Neue",
   Arial,
   sans-serif;
-$font-headings:
-  "Newsreader",
-  Georgia,
-  "Times New Roman",
-  serif;
+$font-headings: "Newsreader", Georgia, "Times New Roman", serif;
 
 body {
   font-family: $font-body;
-  font-feature-settings:
-    "cv02",
-    "cv03",
-    "cv04",
-    "cv11";
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
 h1,

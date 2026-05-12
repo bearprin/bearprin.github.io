@@ -2,11 +2,11 @@ name: Update Scholar citations
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # daily 07:00 UTC = 15:00 CST
-  workflow_dispatch:        # manual trigger
+    - cron: "0 7 * * *" # daily 07:00 UTC = 15:00 CST
+  workflow_dispatch: # manual trigger
 
 permissions:
-  contents: write           # allow committing back to the repo
+  contents: write # allow committing back to the repo
 
 jobs:
   update:
@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install scholarly
         run: pip install scholarly==1.7.11 pyyaml
@@ -44,5 +44,5 @@ jobs:
       - name: Commit if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore(citations): update from Google Scholar'
+          commit_message: "chore(citations): update from Google Scholar"
           file_pattern: _data/citations.yml

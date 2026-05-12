@@ -48,7 +48,22 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}{% if entry.author_role == 'first' %}<span class="author-role-tag" style="font-size: 0.78em; color: var(--global-theme-color); font-weight: 600; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid var(--global-theme-color); background-color: rgba(0,128,128,0.08); border-radius: 0.25em; vertical-align: middle; white-space: nowrap;">First Author</span>{% elsif entry.author_role == 'co-first' %}<span class="author-role-tag" style="font-size: 0.78em; color: var(--global-theme-color); font-weight: 600; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid var(--global-theme-color); background-color: rgba(0,128,128,0.05); border-radius: 0.25em; vertical-align: middle; white-space: nowrap;">Co-first Author</span>{% endif %}</div>
+    <div class="title">
+      {{ entry.title -}}
+      {%- if entry.author_role == 'first' -%}
+        <span
+          class="author-role-tag"
+          style="font-size: 0.78em; color: var(--global-theme-color); font-weight: 600; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid var(--global-theme-color); background-color: rgba(0,128,128,0.08); border-radius: 0.25em; vertical-align: middle; white-space: nowrap;"
+          >First Author</span
+        >
+      {%- elsif entry.author_role == 'co-first' -%}
+        <span
+          class="author-role-tag"
+          style="font-size: 0.78em; color: var(--global-theme-color); font-weight: 600; margin-left: 0.6em; padding: 0.1em 0.5em; border: 1px solid var(--global-theme-color); background-color: rgba(0,128,128,0.05); border-radius: 0.25em; vertical-align: middle; white-space: nowrap;"
+          >Co-first Author</span
+        >
+      {%- endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
