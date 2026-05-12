@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install scholarly
-        run: pip install scholarly==1.7.11
+        run: pip install scholarly==1.7.11 pyyaml
 
       - name: Fetch citations
         env:
