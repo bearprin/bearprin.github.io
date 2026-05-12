@@ -13,7 +13,8 @@ nav: false
 
   <p style="margin-bottom: 1.1em;">
     <a href="https://doi.org/10.1111/cgf.70343" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-pdf"></i> Paper</a>
-    <a href="https://arxiv.org/abs/2508.07011" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-file-lines"></i> arXiv</a>
+    <a href="https://arxiv.org/abs/2508.07011" class="btn btn-sm btn-outline-primary mr-2"><i class="fa-solid fa-file-lines"></i> arXiv</a>
+    <a href="/assets/pdf/himat_eg2026_slides.pptx" class="btn btn-sm btn-outline-primary"><i class="fa-solid fa-display"></i> Slides</a>
   </p>
 
   <div style="display: inline-block; padding: 0.45em 1.2em; border-radius: 999px; background: rgba(0,128,128,0.1); border: 1px solid var(--global-theme-color); color: var(--global-theme-color); font-weight: 600; font-size: 0.95em; letter-spacing: 0.02em;">
