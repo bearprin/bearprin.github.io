@@ -32,9 +32,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Pin httpx<0.28 to match master's requirements.txt; newer httpx breaks
-          # scholarly 1.7.11's fetches.
-          pip install "scholarly[free-proxies]" "httpx<0.28"
+          # Pin transitive deps to versions scholarly 1.7.11 was written against:
+          #  - free-proxy==1.1.0: newer 1.1.x made get_proxy_list(repeat) required,
+          #    which scholarly calls without it -> TypeError on proxy setup.
+          #  - httpx<0.28: newer httpx breaks scholarly's fetches.
+          pip install "scholarly[free-proxies]" "free-proxy==1.1.0" "httpx<0.28"
 
       - name: Save current citations.json hash
         id: before
