@@ -33,10 +33,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           # Pin transitive deps to versions scholarly 1.7.11 was written against:
-          #  - free-proxy==1.1.0: newer 1.1.x made get_proxy_list(repeat) required,
-          #    which scholarly calls without it -> TypeError on proxy setup.
-          #  - httpx<0.28: newer httpx breaks scholarly's fetches.
-          pip install "scholarly[free-proxies]" "free-proxy==1.1.0" "httpx<0.28"
+          #  - free-proxy==1.0.2: get_proxy_list(self) has no `repeat` arg, so
+          #    scholarly's get_proxy_list(repeat=False) raises TypeError and is
+          #    caught by its except -> falls back to the no-arg call. free-proxy
+          #    >=1.1.0 made `repeat` positional, which breaks that fallback path.
+          #  - httpx[socks]<0.28: newer httpx breaks scholarly's fetches; the
+          #    socks extra is required because scholarly uses a SOCKS proxy.
+          pip install "scholarly" "free-proxy==1.0.2" "httpx[socks]<0.28"
 
       - name: Save current citations.json hash
         id: before
