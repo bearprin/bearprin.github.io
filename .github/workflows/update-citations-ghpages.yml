@@ -3,12 +3,19 @@ name: Update Scholar Citations (gh-pages)
 # Fetches Google Scholar stats and writes assets/json/citations.json directly on
 # the gh-pages branch (the static site actually served). The homepage reads that
 # JSON at runtime via assets/js/citations.js, so no Jekyll rebuild is required.
+#
+# NOTE: the scheduled run is DISABLED. Google Scholar only serves residential
+# IPs, so fetching from GitHub Actions fails (free proxies get blocked, and a
+# free-tier ScraperAPI key returns HTTP 503). Left as manual-only so it doesn't
+# fail on a cron and spam notifications. To re-enable automatic updates you need
+# a residential/premium proxy (e.g. a paid ScraperAPI plan), then uncomment the
+# schedule below. citations.json can also just be edited by hand.
 
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+  # schedule:
+  #   - cron: "0 0 * * 1" # Monday
+  #   - cron: "0 0 * * 3" # Wednesday
+  #   - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 permissions:
