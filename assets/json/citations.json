@@ -1,0 +1,48 @@
+{
+  "h_index": 6,
+  "i10_index": 6,
+  "papers": {
+    "DqEP_nIAAAAJ:2osOgNQ5qMEC": {
+      "citations": 70,
+      "title": "Laplacian2mesh: Laplacian-based mesh understanding",
+      "year": "2023"
+    },
+    "DqEP_nIAAAAJ:9yKSN-GCB0IC": {
+      "citations": 56,
+      "title": "Rfeps: Reconstructing feature-line equipped polygonal surface",
+      "year": "2022"
+    },
+    "DqEP_nIAAAAJ:IjCSPb-OGe4C": {
+      "citations": 18,
+      "title": "Aligning gradient and hessian for neural signed distance function",
+      "year": "2023"
+    },
+    "DqEP_nIAAAAJ:Tyk-4Ss8FVUC": {
+      "citations": 6,
+      "title": "A task-driven network for mesh classification and semantic part segmentation",
+      "year": "2024"
+    },
+    "DqEP_nIAAAAJ:UeHWp8X0CEIC": {
+      "citations": 56,
+      "title": "Neural-singular-hessian: Implicit neural representation of unoriented point clouds by enforcing singular hessian",
+      "year": "2023"
+    },
+    "DqEP_nIAAAAJ:d1gkVwhDpl0C": {
+      "citations": 48,
+      "title": "Restricted delaunay triangulation for explicit surface reconstruction",
+      "year": "2022"
+    },
+    "DqEP_nIAAAAJ:qjMakFHDy7sC": {
+      "citations": 44,
+      "title": "Neural-IMLS: Self-supervised Implicit Moving Least-Squares Network for Surface Reconstruction",
+      "year": "2023"
+    },
+    "DqEP_nIAAAAJ:zYLM7Y9cAGgC": {
+      "citations": 3,
+      "title": "A Hessian-Based Field Deformer for Real-Time Topology-Aware Shape Editing",
+      "year": "2023"
+    }
+  },
+  "total": 301,
+  "updated": "2026-05-11"
+}

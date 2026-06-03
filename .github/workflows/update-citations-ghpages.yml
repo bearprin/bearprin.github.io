@@ -1,0 +1,73 @@
+name: Update Scholar Citations (gh-pages)
+
+# Fetches Google Scholar stats and writes assets/json/citations.json directly on
+# the gh-pages branch (the static site actually served). The homepage reads that
+# JSON at runtime via assets/js/citations.js, so no Jekyll rebuild is required.
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Monday
+    - cron: "0 0 * * 3" # Wednesday
+    - cron: "0 0 * * 5" # Friday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "scholarly[free-proxies]"
+
+      - name: Save current citations.json hash
+        id: before
+        run: |
+          if [ -f assets/json/citations.json ]; then
+            echo "sha=$(sha256sum assets/json/citations.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run citation update script
+        shell: bash
+        run: |
+          set +e
+          timeout 300 python bin/update_citations_json.py
+          status=$?
+          if [ $status -ne 0 ]; then
+            echo "::warning::Citation update failed (exit $status); existing JSON kept."
+          fi
+          set -e
+
+      - name: Save new citations.json hash
+        id: after
+        run: |
+          if [ -f assets/json/citations.json ]; then
+            echo "sha=$(sha256sum assets/json/citations.json | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "sha=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.before.outputs.sha != steps.after.outputs.sha
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add assets/json/citations.json
+          git commit -m "Update Google Scholar citations"
+          git push
